@@ -1,0 +1,26 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30vh;
+    text-align: center;
+  }
+h1 {
+    font-size: 5em;
+    width: 100%;
+    font-weight: 100;
+    text-align: center;
+}
+h2 {
+    font-size: 2em;
+    width: 100%;
+    font-weight: 100;
+    color: #595959;
+    text-align: center;
+}
