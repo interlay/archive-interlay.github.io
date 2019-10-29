@@ -10,7 +10,7 @@ const Billboard = {
     this.initLights()
   },
   initGeometry: function () {
-    const video = document.getElementsByTagName('canvas')[0]
+    const video = document.getElementsByTagName('video')[0]
     const billboardTexture = new THREE.VideoTexture(video)
     billboardTexture.minFilter = THREE.LinearFilter
     billboardTexture.magFilter = THREE.LinearFilter
