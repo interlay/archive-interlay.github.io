@@ -50,9 +50,16 @@ function render() {
 
 let initialized = false
 
-
+video.load()
+video.addEventListener('canplaythrough', () => {
+  if (initialized) {
+    return
+  }
+  if (video.paused) {
+    video.play()
+  }
   init()
   render()
   window.addEventListener('resize', Camera.adjustViewport, false)
   initialized = true
-
+}, false)

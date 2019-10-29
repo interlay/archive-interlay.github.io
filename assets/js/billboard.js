@@ -15,14 +15,14 @@ const Billboard = {
     billboardTexture.minFilter = THREE.LinearFilter
     billboardTexture.magFilter = THREE.LinearFilter
     billboardTexture.format = THREE.RGBFormat
-    //const textBillboardGeometry = new THREE.PlaneGeometry(480, 287, 1, 1)
-    //const textMaterial = new THREE.MeshBasicMaterial({
-    //  map: billboardTexture, side: THREE.DoubleSide
-    //})
-    //this.textMesh = new THREE.Mesh(textBillboardGeometry, textMaterial)
-    //this.textMesh.position.set(0, 500, -300)
+    const textBillboardGeometry = new THREE.PlaneGeometry(400, 120, 1, 1)
+    const textMaterial = new THREE.MeshBasicMaterial({
+     map: billboardTexture, side: THREE.DoubleSide
+    })
+    this.textMesh = new THREE.Mesh(textBillboardGeometry, textMaterial)
+    this.textMesh.position.set(0, 300, -300)
 
-    //Billboard.scene.add(this.textMesh)
+    Billboard.scene.add(this.textMesh)
   },
   initLights: function () {
     const textLight = new THREE.SpotLight(0xffffff)
