@@ -44,304 +44,33 @@
               <p>More infos soon...</p>
             </div>
         </div>
-            </div>
-        </div>
-    </div>
+      </div>
+      <div class="row" style="margin-top: 90vh;">
+        test
+      </div>
+  </div>
 
 
         <!-- Content
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container">
-      <div class="docs-section">
-        <div class="row" style="margin-top: 3%">
-          <div class="twelve columns">
-            <h4>The Problem of Trustless Cross-Chain Trades</h4>
-            <p>
-              Building trustless cross-blockchain trading protocols is challenging.
-              Centralized exchanges thus remain the preferred route to executing transfers across blockchains.
-              However, these services require trust and therefore undermine the very nature of the blockchains on which
-              they operate.
-              To overcome this, several decentralized exchanges have recently emerged which offer support for <i>commit-reveal</i>
-              atomic cross-chain swaps (ACCS).
-            </p>
-            <p>
-              Commit-reveal ACCS, most notably based on <a href="https://en.bitcoin.it/wiki/Hashed_Timelock_Contracts">HTLCs</a>,
-              enable the trustless exchange of cryptocurrencies across blockchains.
-              To this date, this is the only mechanism to have been deployed in production.
-              However, commit-reveal ACCS face numerous challenges:
-            </p>
-            <ul>
-              <li>
-                <b>Long waiting times:</b> Each commit-reveal ACCS requires multiple transactions to occur on all
-                involved blockchains (commitments and revealing of secrets).
-              </li>
-              <li>
-                <b>High costs:</b> Publishing multiple transaction per swap results in high fees to maintain such a
-                system.
-              </li>
-              <li>
-                <b>Strict online requirements:</b> Both parties must be online during the ACCS. Otherwise, the trade
-                fails or, in the worst case, <i>loss of funds is possible</i>.
-              </li>
-              <li>
-                <b>Out-of-band channels:</b> Secure operation requires users to exchange additional data <i>off-chain</i>
-                (revocation commitments). </li>
-              <li>
-                <b>Race conditions:</b> Commit-reveal ACCS use time-locks to ensure security. Synchronizing time across
-                blockchains, however, is challenging and opens up risks to race conditions.
-              </li>
-              <li>
-                <b>Inefficiency:</b> Finally, commit-reveal ACCS are <i>one-time</i>. That is, all of the above
-                challenges are faced with each and every trade.
-              </li>
-            </ul>
-            <p>Commit-reveal ACCS have been around since 2012. The practical challenges explain their limited use in
-              practice.</p>
-          </div>
-        </div>
+
   
-        <div class="row">
-          <div class="twelve columns">
-            <h4>XCLAIM - Trustless Cross-Chain Communication</h4>
-            <p>
-              XCLAIM is a framework for achieving trustless and efficient cross-chain exchanges using
-              cryptocurrency-backed assets (CbAs).
-              XCLAIM allows to create assets which are 1:1 backed by existing cryptocurrencies, without requiring trust
-              in a central operator.
-              While this approach is applicable to a wide range of cryptocurrencies, we currently focus on implementing
-              Bitcoin-backed tokens on Ethereum, i.e. XCLAIM(BTC,ETH).
-            </p>
-            <p>
-              XCLAIM introduces three protocols to achieve decentralized, transparent, consistent, atomic, and censorship
-              resistant cross-blockchain swaps:
-            </p>
-            <ul>
-              <li><b>Issue:</b> Create Bitcoin-backed tokens on Ethereum. </li>
-              <li><b>Swap:</b> Swap Bitcoin-backed tokens on Ethereum against Ether or any ERC-20 token. </li>
-              <li><b>Redeem:</b> Burn Bitcoin-backed tokens on Ethereum and receive the 1:1 amount of Bitcoin in return,
-              </li>
-            </ul>
-            <p>
-              The current <a href="https://github.com/crossclaim/">XCLAIM prototype</a> is compliant with the ERC20
-              standard.
-              An overview of the protocol is presented below:
-            </p>
-          </div>
-        </div>
-  
-        <div class="row">
-          <div class="four columns">
-            <img class="u-max-full-width" src="images/xclaim/issue.png" alt="Issue">
-          </div>
-          <div class="four columns">
-            <img class="u-max-full-width" src="images/xclaim/swap.png" alt="Trade">
-          </div>
-          <div class="four columns">
-            <img class="u-max-full-width" src="images/xclaim/redeem.png" alt="Redeem">
-          </div>
-        </div>
-  
-  
-        <div class="row">
-          <div class="twelve columns">
-            <h5>Design Principles</h5>
-            <p>
-              XCLAIM guarantees that Bitcoin-backed tokens can be redeemed for the corresponding amount of Bitcoin, or
-              the equivalent economic value in Ethereum.
-              Thereby, XCLAIM overcomes the limitations of centralized approaches through three primary techniques:
-            </p>
-            <ul>
-              <li><b>Secure audit logs:</b> Logs are constructed to record actions of all users both on Bitcoin and
-                Ethereum.</li>
-              <li><b>Transaction inclusion proofs:</b> Chain relays are used to prove correct behavior on Bitcoin to the
-                smart contract on Ethereum.</li>
-              <li><b>Proof-or-Punishment:</b> Instead of relying on timely fraud proofs (<i>reactive</i>), XCLAIM requires
-                correct behavior to be proven <i>proactively</i>.
-              </li>
-              <li><b>Over-collateralization:</b> Non-trusted intermediaries are bound by collateral, with mechanisms in
-                place to mitigate exchange rate fluctuations.</li>
-            </ul>
-          </div>
-        </div>
-  
-        <div class="row">
-          <div class="twelve columns">
-            <h5>XCLAIM vs HTLC Atomic Swaps</h5>
-            <p>
-              To test performance and costs, we implemented both XCLAIM and HTLC ACCS between Bitcoin and Ethereum.
-              Our experiments show:
-              <br>
-              <b>XCLAIM is cheaper and faster than HTLC Atomic Swaps</b>.
-            </p>
-            <div class="row">
-              <div class="six columns">
-                <img class="plot-fig" src="images/xclaim/comparison-cost.png" alt="Issue">
-              </div>
-              <div class="six columns">
-                <img class="plot-fig" src="images/xclaim/comparison-time.png" alt="Trade">
-              </div>
-            </div>
-  
-            <p>
-              <small>Storage and execution costs are in USD as per exchange rates of 30 Nov. 2018: BTC/USD 3717.38 and
-                ETH/USD 105.71.
-                Performance is measured in minutes and includes recommended security parameters: 6 conf. a 10 min for
-                Bitcoin; 12 conf. a 14 sec for Ethereum.
-              </small>
-            </p>
-          </div>
-  
-        </div>
-      </div>
-      <div class="docs-section">
-        <div class="row">
-            <h4>Featured In</h4>
-        </div>
-        <div class="row u-align-center">
-          <div class="six columns vertical-center">
-            <a href="https://tokyo2018.scalingbitcoin.org/" target="_blank" class="u-hidden-link">
-              <img class="u-icon-60 vertical-align" src="images/icons/scaling.png" alt="Scaling Bitcoin 2018">
-            </a>
-            <p>Scaling Bitcoin, Tokyo <br> 6-7 Oct. 2018</p>
-          </br>
-          </div>
-          <div class="six columns vertical-center">
-              <a href="https://ethcc.io" target="_blank" class="u-hidden-link">
-                <img class="u-icon-60 vertical-align" src="images/icons/ethcc.png" alt="Ethereum Community Conference 2019">
-              </a>
-              <p>EthCC 2019, Paris <br> 5-7 Mar. 2019 <br> (<a href="https://www.youtube.com/watch?v=ZICMrQ9H_yM" target="__blank">Video</a>)</p>
-            </br>
-            </div>
-            </div>
-            <div class="row u-align-center">
-            <div class="six columns vertical-center">
-            <a href="https://edcon.io" target="_blank" class="u-hidden-link">
-              <img class="u-icon-60 vertical-align" src="images/icons/edcon.png" alt="Community Ethereum Development Conerence 2019">
-            </a>
-            <p>EDCON, Sydney <br>8-14 Apr. 2019 <br> <b></b></p>
-          </br>
-          </div>
-            <div class="six columns vertical-center">
-              <a href="https://www.ieee-security.org/TC/SP2019/index.html" target="_blank" class="u-hidden-link">
-                <img class="u-icon-60 vertical-align" src="images/icons/ieeesp.png" alt="IEEE S&P 2019">
-              </a>
-              <p>IEEE S&P, San Francisco <br> 20-22 May. 2019 <br> (<a href="https://www.youtube.com/watch?v=ywMWAq4AgGc" target="__blank">Video</a>)</p>
-            </br>
-            </div>
-          
-        </div>
-        <div class row-u-align-center">
-          Check out our <a target="__blank" href="files/xclaim-slides.pdf">slide deck</a>.
-        </div>
-      </div>
-  
-        <!--
-        <div class="docs-section">
-          <div class="row">
-            <div class="twelve columns">
-              <h4>Research and Development Team</h4>
-              <p></p>
-            </div>
-          </div>
-          <div class="row u-align-center" style="margin-top: 5%">
-            <div class="four columns">
-              <a href="https://alexeizamyatin.me/" target="_blank" class="u-hidden-link">
-                <img class="u-icon-60 u-round" src="images/profile/alexei.jpg" alt="Alexei">
-              </a>
-              </br>
-              <b>Alexei Zamyatin</b>
-              </br>
-              Primary author and lead of the XCLAIM project. PhD researcher in the Imperial College London Centre for Cryptocurrency Research and Engineering. His research focuses on blockchain security and interoperability.
-              </br>
-              <a href="https://github.com/alexeiZamyatin" target="_blank">
-                GitHub
-              </a>
-              </br>
-              <a href="https://scholar.google.co.uk/citations?user=BJDPyu0AAAAJ&hl=en" target="_blank">
-                Google Scholar
-              </a>
-            </div>
-            <div class="four columns">
-              <a href="https://dominikharz.me/" target="_blank" class="u-hidden-link">
-                <img class="u-icon-60 u-round" src="images/profile/dom.png" alt="Dominik">
-              </a>
-              </br>
-              <b>Dominik Harz</b>
-              </br>
-              PhD researcher at Imperial College London Centre for Cryptocurrency Research and Engineering. His research focuses on smart contract security and verification, and negotiation for autonomous agents.
-              
-              </br>
-              <a href="https://github.com/nud3l" target="_blank">
-                GitHub
-              </a>
-              </br>
-              <a href="https://scholar.google.co.uk/citations?user=s6Km5yQAAAAJ&hl=en" target="_blank">
-                Google Scholar
-              </a>
-            </div>
-            <div class="four columns">
-              <a href="https://www.joshdavidlind.com/" target="_blank" class="u-hidden-link">
-                <img class="u-icon-60 u-round" src="images/profile/josh.png" alt="Joshua">
-              </a>
-              </br>
-              <b>Joshua Lind</b>
-              </br>
-              PhD researcher in the Large-Scale Data and Systems Group at Imperial College London. His research focuses on improving the security and privacy of distributed systems.
-              </br>
-              <a href="https://github.com/JoshLind" target="_blank">
-                GitHub
-              </a>
-              </br>
-              <a href="https://scholar.google.com/citations?user=uW5F3xgAAAAJ&hl=en" target="_blank">
-                Google Scholar
-              </a>
-            </div>
-          </div>
-          <div class="row u-align-center" style="margin-top: 5%">
-            <h5>Research Advisors</h5>
-            <p>
-              <b><a href="http://arthurgervais.com/">Arthur Gervais</a>
-              and
-              <a href="https://www.imperial.ac.uk/people/w.knottenbelt">William Knottenbelt</a>
-            </p>
-          </div>
-        </div>
-        -->
+
   
         <!-- Footer
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
       <div class="docs-section">
         <div class="row">
           <div class="twelve columns">
-            <p style="font-size: 70%">XCLAIM is a research project at the <a href="https://www.imperial.ac.uk/cryptocurrency" target="__blank">Imperial College London Centre for Cryptocurrency Research and Engineering</a>, in collaboration with <a href="https://www.sba-research.org/" target="__blank">SBA Research</a>. 
-              
-                This research was co-funded by
-                Blockchain.com, Outlier Ventures, Bridge 1 858561 SESC,
-                Bridge 1 864738 PR4DLT (all FFG), the Christian Doppler
-                Laboratory for Security and Quality Improvement in the
-                Production System Lifecycle (CDL-SQI), and the competence
-                center SBA-K1 funded by COMET.
-            <br>
-            <br>
-              <b>DISCLAIMER: This sole purpose of this website is to provide information on the challenges of blockchain interoperability and the solution approach described in the XCLAIM research paper.</b>  
-            </p>
-            <p style="font-size: 70%">
-              Built with <a href="http://www.getskeleton.com">Skeleton</a>,
-              Icons made by:
-              <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"
-                title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
-                title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>,
-              <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"
-                title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
-                title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>,
-              <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from
-              <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
-                title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>.
-
-                <br>
-                Many thanks to Dionysis Zindros for providing the background visualizations. <a href="https://github.com/dionyziz/xclaim-synthwave" target="__blank">Github link</a>
-
-              </p>
+            <p style="font-size: 70%; text-align: center;" >
+              &copy; 2019 Interlay Ltd. 
+              <br/>
+              Interlay Ltd. is registered in England and Wales, company registration number 10722638.
+              <br/>
+              483 Green Lanes, London, England, N13 4BS
+             </p>
+        
           </div>
         </div>
       </div>
