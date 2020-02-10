@@ -1,7 +1,26 @@
 
 .section {
-    padding: 2rem 0 2rem;
-  }
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+.intro {
+  background-color:#510101;
+  color: white;
+
+}
+
+
+.section-box {
+  border: #222 solid;
+  border-radius: 10%;
+  min-height: 5em;
+}
+
   /* Custom
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   .background {
@@ -16,9 +35,6 @@
     /* color: rgb(255, 255, 255); */
   }
   
-  h1 {
-    font-size: 8em;
-  }
   .vertical-center{
     display: inline-block;
     height: 100%;
@@ -36,6 +52,14 @@
     margin-top: 3em;
   }
 
+  .margin-top-small{
+    margin-top: 2em;
+  }
+
+  .profile-image {
+    padding: 1em
+  }
+
   .u-align-center {
     text-align: center;
     align-items: center;
@@ -46,16 +70,22 @@
   }
 
   .xclaim-head-logo {
-    max-width: 50%;
+    position: relative;
+    max-width: 90%;
+    margin: 2rem auto;
   }
 
+  .section-fig {
+    width: 100%;
+    box-sizing: border-box; }
+
   .plot-fig {
-    width: 80%;
+    width: 90%;
     box-sizing: border-box; }
 
   .u-icon-60 {
-    width: 150px;
-    max-width: 10em;
+    width: 20rem;
+    max-width: 20rem;
     box-sizing: border-box; }
 
   .u-icon-50 {
@@ -191,7 +221,7 @@
     margin-bottom: 0; }
   .navbar-link {
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 0.9rem;
     font-weight: 600;
     letter-spacing: .2rem;
     margin-right: 35px;
@@ -313,6 +343,20 @@
     .u-icon-20 {
       max-width: 20%;
       box-sizing: border-box; }
+    .section {
+      padding: 12rem 0 11rem;
+    }
+    .hero {
+      padding-bottom: 12rem;
+      text-align: left;
+      height: 165px;
+    }
+    .hero-heading {
+      font-size: 4rem;
+    }
+    .xclaim-head-logo {
+      max-width: 40%;
+    }
   }
 
   /* Larger than phone */
@@ -345,6 +389,20 @@
     .u-icon-20 {
       max-width: 20%;
       box-sizing: border-box; }
+    .section {
+      padding: 12rem 0 11rem;
+    }
+    .hero {
+      padding-bottom: 12rem;
+      text-align: left;
+      height: 165px;
+    }
+    .hero-heading {
+      font-size: 4rem;
+    }
+    .xclaim-head-logo {
+      max-width: 40%;
+    }
   }
   
   /* Larger than tablet */
@@ -373,7 +431,7 @@
     margin-bottom: 0; }
   .navbar-link {
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 0.9rem;
     font-weight: 600;
     letter-spacing: .2rem;
     margin-right: 35px;
@@ -395,6 +453,27 @@
   
   .menu-icon {
     display: none; }
+
+    .hero {
+      height: 190px;
+    }
+    .hero-heading {
+      font-size: 5rem;
+    }
+    .section {
+      padding: 14rem 0 15rem;
+    }
+    .hero {
+      padding: 16rem 0 14rem;
+    }
+    .section-description {
+      max-width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .xclaim-head-logo {
+      max-width: 90%;
+    }
   }
 
   /* old phones */
@@ -406,8 +485,3 @@
       }
   }
 
-@media (max-width: 1024px) {
-  .xclaim-head-logo {
-    max-width:90%;
-  }
-}
