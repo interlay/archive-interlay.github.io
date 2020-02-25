@@ -65,6 +65,7 @@
     {% include footer.html %}
     <!--   Core JS Files   -->
     <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+    <script src="./assets/js/plugins/jquery.validate.min.js"></script>
     <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
     <script src="./assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
     <script src="./assets/js/plugins/moment.min.js"></script>
@@ -73,14 +74,48 @@
     <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
     <script src="./assets/js/material-kit.js?v=2.0.6" type="text/javascript"></script>
     <script>
+  /*  Mailchimp Subscribe  */
+  $('form[id="subscribe-form"]').validate({
+    rules: {
+      user_email: {
+        required: true,
+        email: true,
+      }
+    },
+    messages: {
+      user_email: 'Enter a valid email',
+    },
+    submitHandler: function (form) {
 
-        function scrollToDownload() {
-            if ($('.section-download').length != 0) {
-                $("html, body").animate({
-                    scrollTop: $('.section-download').offset().top
-                }, 1000);
-            }
+      event.preventDefault(); //prevent page refresh
+      var email = $('[name="user_email"]').val();//get email field value
+      console.log(email);
+      
+      var url = "https://us4.api.mailchimp.com/2.0/lists/subscribe.json?"
+        + "apikey=895e7bfeaa3ad00a51079e152353d42b-us4&id=ad217abce9"//API KEY  
+        + "&email[email]=" + email //email address registering
+        + "&double_optin=false" //add to list even if email is invalid
+        + "&send_welcome=false"; //send an email notification to new subscriber
+      $.ajax({
+        type: "POST",
+        crossDomain: true,
+        url: url,
+        dataType: 'json',
+        success: function (data) {
+          $('#error-msg').remove();
+          $('#success-msg').remove();
+          $('#subscribe').after('<div id="success-msg" class="success">Thank you!</span>');
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+          $('#success-msg').remove();
+          $('#error-msg').remove();
+          $('#subscribe').after('<div id="error-msg" class="error">Something went wrong... please try again later!</span>');
         }
+      });//EO ajax
+
+    }
+  });
+
 
     </script>
 </body>
