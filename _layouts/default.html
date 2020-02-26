@@ -85,22 +85,24 @@
     messages: {
       user_email: 'Enter a valid email',
     },
-    submitHandler: function (form) {
+    submitHandler: function ($form) {
 
       event.preventDefault(); //prevent page refresh
-      var email = $('[name="user_email"]').val();//get email field value
-      console.log(email);
+      var email = $('[name="EMAIL"]').val();//get email field value
       
-      var url = "https://us4.api.mailchimp.com/2.0/lists/subscribe.json?"
-        + "apikey=895e7bfeaa3ad00a51079e152353d42b-us4&id=ad217abce9"//API KEY  
+      var url = "https://interlay.us4.list-manage.com/subscribe/post-json?u=4c3c3f21d3ec4c3ed94ea7353&amp;id=ad217abce9&c=?"
         + "&email[email]=" + email //email address registering
         + "&double_optin=false" //add to list even if email is invalid
         + "&send_welcome=false"; //send an email notification to new subscriber
+
+        console.log(url);
+
       $.ajax({
-        type: "POST",
-        crossDomain: true,
+        type: "GET",
         url: url,
         dataType: 'json',
+        cache: false,
+        contentType: "application/json; charset=utf-8",
         success: function (data) {
           $('#error-msg').remove();
           $('#success-msg').remove();
