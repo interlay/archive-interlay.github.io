@@ -156,12 +156,12 @@ materialKit = {
     if ($(document).scrollTop() > scroll_distance) {
       if (materialKit.misc.transparent) {
         materialKit.misc.transparent = false;
-        $('.navbar-color-on-scroll').removeClass('navbar-transparent');
+        $('.navbar-color-on-scroll').addClass('navbar-shadow');
       }
     } else {
       if (!materialKit.misc.transparent) {
         materialKit.misc.transparent = true;
-        $('.navbar-color-on-scroll').addClass('navbar-transparent');
+        $('.navbar-color-on-scroll').removeClass('navbar-shadow');
       }
     }
   }, 17)
