@@ -10,7 +10,6 @@ tags: [projects]
     <div class="section text-left">
       <div class="col-md-8">
         <h2>Projects</h2>
-        
       </div>
     </div>
   </div>
@@ -18,13 +17,36 @@ tags: [projects]
 <div class="main ">
   <div class="container">
     <div class="section">
-      <a class="embedly-card" data-card-controls="0" href="https://medium.com/interlay/interlay-receives-w3f-grant-to-build-trustless-btc-polkadot-bridge-c4bdb40173a3">Interlay Receives W3F Grant to Build Trustless BTC-Polkadot Bridge</a>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+          <div class="row">
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-body">
+              <a href="https://medium.com/interlay/interlay-receives-w3f-grant-to-build-trustless-btc-polkadot-bridge-c4bdb40173a3">
+              <img class="d-block w-100" src="/../assets/img/projects/btc-parachain.png">
+              </a>
+                <h3>Trustless BTC-Polkadot Bridge</h3>
+                <h4>(open-source, funded by a Web3 Foundation grant)</h4>
+              <p>
+              We are excited to announce our work on bringing Bitcoin to the Polkadot ecosystem. 
+              XCLAIM, the framework underlying the BTC-Parachain, is a carefully designed, open and trustless system that leverages a dynamic set of collateralized intermediaries. Intermediaries are obligated to prove correct transaction execution on Bitcoin, which ensures that users face no financial damage.
+              </p>
+              <div class="row">
+              <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://gitlab.com/interlay" target="_blank" data-original-title="Gitlab repo">
+              <i class="fa fa-gitlab fa-3x"></i>
+              </a>
+              <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://interlay.gitlab.io/polkabtc-spec/" target="_blank" data-original-title="Specification">
+              <i class="fa fa-book fa-3x"></i>
+              </a>
+              <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://medium.com/interlay/interlay-receives-w3f-grant-to-build-trustless-btc-polkadot-bridge-c4bdb40173a3" target="_blank" data-original-title="Medium announcement">
+              <i class="fa fa-medium fa-3x"></i>
+              </a>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);
-</script>
-<!--End mc_embed_signup-->
 
 

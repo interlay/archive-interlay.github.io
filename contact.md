@@ -15,6 +15,7 @@ tags: [contact]
         <h3>Drop us an email:
           <a href="mailto:contact@interlay.io" target="_blank">contact@interlay.io</a>
         </h3>
+        <h3>Or follow us online:</h3>
         <div class="row">
 
           <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://twitter.com/interlayHQ"
@@ -25,6 +26,11 @@ tags: [contact]
           <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://medium.com/Interlay"
             target="_blank" data-original-title="Follow us on Medium">
             <i class="fa fa-medium  fa-3x"></i>
+          </a>
+
+          <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="http://linkedin.com/company/interlay"
+            target="_blank" data-original-title="Follow us on LinkedIn">
+            <i class="fa fa-linkedin fa-3x"></i>
           </a>
 
           <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://gitlab.com/interlay"
