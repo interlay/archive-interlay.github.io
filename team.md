@@ -1,6 +1,8 @@
 ---
 title: Team
 layout: default
+permalink: /team/
+tags: [team]
 ---
 
 <div class="main page-header-padding">
@@ -16,7 +18,7 @@ layout: default
       <div class="row">
         <div class="col-md-6 text-center margin-top-small">
           <a href="https://alexeizamyatin.me" target="__blank">
-          <img class="profile-image u-round profile-image" src="assets/img/profile/alexei.jpg" alt="Alexei">
+          <img class="profile-image u-round profile-image" src="/../assets/img/profile/alexei.jpg" alt="Alexei">
             <h4><b>Alexei Zamyatin</b></h4>
           </a>
           <h4>Co-Founder and CEO</h4>
@@ -35,7 +37,7 @@ layout: default
         </div>
         <div class="col-md-6 text-center margin-top-small">
           <a href="https://dominikharz.me" target="__blank">
-          <img class="profile-image u-round profile-image" src="assets/img/profile/dom.png" alt="Dominik">
+          <img class="profile-image u-round profile-image" src="/../assets/img/profile/dom.png" alt="Dominik">
             <h4><b>Dominik Harz</b></h4>
           </a>
           <h4>Co-Founder and CTO</h4>
@@ -54,7 +56,7 @@ layout: default
         </div>
         <div class="col-md-12 text-center margin-top-small">
           <a href="https://daniel.perez.sh" target="__blank">
-          <img class="profile-image u-round profile-image" src="assets/img/profile/daniel.jpg" alt="Daniel">
+          <img class="profile-image u-round profile-image" src="/../assets/img/profile/daniel.jpg" alt="Daniel">
             <h4><b>Daniel Perez-Hernandez</b></h4>
           </a>
           <h4>Research & Engineering</h4>

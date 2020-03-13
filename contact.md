@@ -1,6 +1,9 @@
 ---
 title: Contact
 layout: default
+permalink: /contact/
+layout: default
+tags: [contact]
 ---
 
 <div class="main page-header-padding">

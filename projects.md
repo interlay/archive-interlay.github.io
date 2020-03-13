@@ -1,6 +1,8 @@
 ---
 title: Projects
+permalink: /projects/
 layout: default
+tags: [projects]
 ---
 
 <div class="main page-header-padding">

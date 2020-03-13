@@ -1,6 +1,9 @@
 ---
 title: About
 layout: default
+permalink: /about/
+layout: default
+tags: [about]
 ---
 
 <div class="main page-header-padding">
@@ -19,7 +22,9 @@ layout: default
           <h3>Interlay announced </h3>
           <p>We launch Interlay to unlock liquidity for DeFi platforms across blockchains.</p>
           <div class="img-container">
-            <a href="https://medium.com/p/2f3dc135243f/edit" target="__blank"><img width="560px"src="assets/img/interlay-medium.png"></a>
+            <a href="https://medium.com/p/2f3dc135243f/edit" target="__blank">
+            <img width="560px" src="/../assets/img/interlay-medium.png">
+            </a>
           </div>
         </div>
       </div>
@@ -40,8 +45,10 @@ layout: default
           <h2>October, 2019</h2>
           <h3>Ethereum DEVCON 5, Osaka, Japan</h3>
           <p>Workshop on the nuts and bolts of cross-chain communication.</p>
-          <div class="img-container">
-            <a href="https://github.com/crossclaim/devcon5-relay-attack" target="__blank"><img width="560px"src="assets/img/devcon.png"></a>
+          <div class="iframe-container">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ndwm4o4F6Xk?controls=0"
+              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -85,7 +92,7 @@ layout: default
         <div class="timecontent">
           <h2>September, 2018</h2>
           <h3>Scaling Bitcoin, Tokyo, JP</h3>
-          <p>Introducing Cryptocurrency-backed Assets to the World.</p>
+          <p>Introducing Cryptocurrency-backed /../assets to the World.</p>
           <div class="iframe-container">
             <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FI9cwksTrQs?start=6437"
               frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -99,7 +106,7 @@ layout: default
           <h3>First version of XCLAIM</h3>
           <p>We release the first pre-print of describing XCLAIM online.</p>
           <div class="img-container">
-            <a href="https://eprint.iacr.org/2018/643" target="__blank"><img width="560px"src="assets/img/xclaim-paper.png"></a>
+            <a href="https://eprint.iacr.org/2018/643" target="__blank"><img width="560px" src="/../assets/img/xclaim-paper.png"></a>
           </div>
         </div>
         </div>

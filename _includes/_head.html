@@ -1,0 +1,95 @@
+<meta charset="utf-8">
+<title>{{ site.title }} {% if page.title %} &#8211; {{ page.title }} {% endif %}</title>
+<meta name="description" content="{{ page.description }}">
+<meta name="keywords" content="{{ page.tags | join: ', ' }}">
+{% if site.owner.twitter %}<!-- Twitter Cards -->
+	{% if page.image.feature %}
+		<meta name="twitter:card" content="summary_large_image">
+	{% else %}
+		<meta name="twitter:card" content="summary">
+	{% endif %}
+	<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+	<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	<meta name="twitter:creator" content="@{{ site.owner.twitter }}">
+{% endif %}
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:site_name" content="{{ site.title }}">
+
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>
+{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"{{ site.url }}/#website","url":"{{ site.url }}/","name":"{{ site.title }}","inLanguage":"en-US","potentialAction":{"@type":"SearchAction","target":"{{ site.url }}/?s={search_term_string}","query-input":"required name=search_term_string"}},
+{"@type":"WebPage","@id":"{{ site.url }}{{ page.url }}/#webpage","url":"{{ site.url }}{{ page.url }}","name":"{{ site.title }} {% if page.title %} &#8211; {{ page.title }} {% endif %}","isPartOf":{"@id":"{{ site.url }}/#website"},"inLanguage":"en-US"}]}</script>
+
+{% if site.google_verify %}<!-- Webmaster Tools verfication -->
+<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
+{% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
+
+{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
+<link rel="canonical" href="{{ canonical }}">
+<link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+{% if site.owner.google_plus %}<link rel="author" href="http://plus.google.com/{{ site.owner.google_plus }}?rel=author">{% endif %}
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Google Webfonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons&display=swap" rel="stylesheet" type="text/css"/>
+<!-- For all browsers -->
+<link href="/../assets/css/material-kit.css?v=2.0.6" rel="stylesheet" />
+<link href="/../assets/css/custom.css" rel="stylesheet" />
+<link href="/../assets/css/timeline.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="{{ site.url }}//../assets/js/vendor/html5shiv.min.js"></script>
+	<script src="{{ site.url }}//../assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Icons -->
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+<link rel="manifest" href="/favicons/site.webmanifest">
+<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/favicons/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org/", 
+      "@type": "BreadcrumbList", 
+      "itemListElement": [{
+        "@type": "ListItem", 
+        "position": 1, 
+        "name": "About Interlay",
+        "item": "https://interlay.io/about"  
+      },{
+        "@type": "ListItem", 
+        "position": 2, 
+        "name": "Team",
+        "item": "https://interlay.io/team"  
+      },{
+        "@type": "ListItem", 
+        "position": 3, 
+        "name": "Careers",
+        "item": "https://interlay.io/careers"  
+      },{
+        "@type": "ListItem", 
+        "position": 4, 
+        "name": "Contact",
+        "item": "https://interlay.io/contact"  
+      }]
+    }
+    </script>

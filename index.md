@@ -1,6 +1,8 @@
 ---
 title: Home
 layout: default
+tags: [Blockchain, DeFi, Bitcoin, Ethereum, Decentralized Finance]
+description: XCLAIM trustless cryptocurrency-backed assets allow you to use any digital asset and cryptocurrency with any blockchain platform.
 ---
 <div class="page-header header-filter" data-parallax="true">
   <div class="container">
@@ -65,32 +67,6 @@ layout: default
           </div>
         </div>
       </div>
-      <!-- 
-        <h3><a href="https://eprint.iacr.org/2018/643.pdf" target="__blank"><b>Technical paper</b> <i
-              class="fa fa-long-arrow-right"></i></a></h3>
-        <h3><a
-            href="https://www.ieee-security.org/TC/SP2019/SP19-Slides-pdfs/Alexei_Zamyatin_-_02-Alexei_Zamyatin-XCLAIM_Trustless_Interoperable_Cryptocurrency-Backed_Assets.pdf"
-            target="__blank"><b>Light-paper</b> <i class="fa fa-long-arrow-right"></i></a></h3> -->
     </div>
   </div>
 </div>
-
-<!--
-  <div class="main main-raised">
-    <div class="section">
-      <div class="container">
-        <div class="title">
-          <h2>XCLAIM</h2>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-left">
-            <h3>XCLAIM allows you to move <b>any blockchain asset to any DeFi platform</b> unlocking financial products
-              for all your crypto-holdings.
-            </h3>
-            <h3>XCLAIM is secured by cryptograpy and crypto-economics, and backed by top-tier academic research.</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
--->

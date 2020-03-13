@@ -1,6 +1,8 @@
 ---
-title: Contact
+title: Careers
 layout: default
+permalink: /careers/
+tags: [careers]
 ---
 
 <div class="main page-header-padding">
