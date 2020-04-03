@@ -16,13 +16,25 @@ tags: [about]
   </div>
   <div class="section">
     <div class="timeline">
+    <div class="timebox left">
+        <div class="timecontent">
+          <h2>March, 2020</h2>
+          <h3>Web3 Foundation Grant</h3>
+          <p>We received a Web3 Foundation grant to bring Bitcoin to Polkadot via a trust-minimized XCLAIM bridge.</p>
+          <div class="img-container">
+            <a href="https://medium.com/interlay/interlay-receives-w3f-grant-to-build-trustless-btc-polkadot-bridge-c4bdb40173a3" target="__blank">
+            <img width="560px" src="/../assets/img/polkadot-btc-banner-announce.png">
+            </a>
+          </div>
+        </div>
+      </div>
       <div class="timebox right">
         <div class="timecontent">
           <h2>February, 2020</h2>
           <h3>Interlay announced </h3>
           <p>We launch Interlay to unlock liquidity for DeFi platforms across blockchains.</p>
           <div class="img-container">
-            <a href="https://medium.com/p/2f3dc135243f/edit" target="__blank">
+            <a href="https://medium.com/interlay/interlay-interoperability-for-decentralized-finance-2f3dc135243f" target="__blank">
             <img width="560px" src="/../assets/img/interlay-medium.png">
             </a>
           </div>
