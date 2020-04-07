@@ -16,7 +16,7 @@ tags: [about]
   </div>
   <div class="section">
     <div class="timeline">
-    <div class="timebox left">
+    <div class="timebox right">
         <div class="timecontent">
           <h2>March, 2020</h2>
           <h3>Web3 Foundation Grant</h3>
@@ -28,7 +28,7 @@ tags: [about]
           </div>
         </div>
       </div>
-      <div class="timebox right">
+      <div class="timebox left">
         <div class="timecontent">
           <h2>February, 2020</h2>
           <h3>Interlay announced </h3>
@@ -37,18 +37,6 @@ tags: [about]
             <a href="https://medium.com/interlay/interlay-interoperability-for-decentralized-finance-2f3dc135243f" target="__blank">
             <img width="560px" src="/../assets/img/interlay-medium.png">
             </a>
-          </div>
-        </div>
-      </div>
-      <div class="timebox left">
-        <div class="timecontent">
-          <h2>November, 2019</h2>
-          <h3>ACM CSS, London, UK</h3>
-          <p>Collateral improvement through Balance accepted at top-tier academic security conference.</p>
-          <div class="iframe-container">
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TkVP7eOTxes?controls=0"
-            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
           </div>
         </div>
       </div>
