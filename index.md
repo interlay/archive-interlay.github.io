@@ -9,7 +9,7 @@ description: XCLAIM trustless cryptocurrency-backed assets allow you to use any 
     <div class="row">
       <div class="col-md-8 ml-auto mr-auto">
         <div class="brand text-left">
-          <h1>Decentralized Finance Made Interoperable.</h1>
+          <h1>Interlay: Decentralized Finance Made Interoperable.</h1>
           <h3 class="title text-left">Use any asset on any DeFi platform. Fast. Secure. Trustless.
           </h3>
         </div>
