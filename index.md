@@ -2,7 +2,6 @@
 title: Home
 layout: default
 tags: [Blockchain, DeFi, Bitcoin, Ethereum, Decentralized Finance]
-description: XCLAIM trustless cryptocurrency-backed assets allow you to use any digital asset and cryptocurrency with any blockchain platform.
 ---
 <div class="page-header header-filter" data-parallax="true">
   <div class="container">
