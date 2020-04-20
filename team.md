@@ -64,9 +64,9 @@ tags: [team]
         <div class="col-md-6 text-center margin-top-small">
           <a href="https://daniel.perez.sh" target="__blank">
           <img class="profile-image u-round profile-image" src="/../assets/img/profile/daniel.jpg" alt="Daniel">
-            <h4><b>Daniel Perez-Hernandez</b></h4>
+            <h4><b>Daniel Perez</b></h4>
           </a>
-          <h4>Research & Engineering</h4>
+          <h4>Researcher & Software Engineering</h4>
           <a class="" href="https://twitter.com/danhper" target="_blank">
             <i class="fa fa-twitter"></i>
           </a>&nbsp;
@@ -88,7 +88,7 @@ tags: [team]
           <img class="profile-image u-round profile-image" src="/../assets/img/profile/gregory.png" alt="Daniel">
             <h4><b>Gregory Hill</b></h4>
           </a>
-          <h4>Research & Engineering</h4>
+          <h4>Software Engineer</h4>
           <a class="" href="https://twitter.com/gregorydhill" target="_blank">
             <i class="fa fa-twitter"></i>
           </a>&nbsp;
