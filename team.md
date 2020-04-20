@@ -66,7 +66,7 @@ tags: [team]
           <img class="profile-image u-round profile-image" src="/../assets/img/profile/daniel.jpg" alt="Daniel">
             <h4><b>Daniel Perez</b></h4>
           </a>
-          <h4>Researcher & Software Engineering</h4>
+          <h4>Researcher & Software Engineer</h4>
           <a class="" href="https://twitter.com/danhper" target="_blank">
             <i class="fa fa-twitter"></i>
           </a>&nbsp;
