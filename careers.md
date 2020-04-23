@@ -45,6 +45,15 @@ tags: [careers]
         <div class="col-md-12">
 
           <div class="card">
+            <div class="card-body" data-toggle="modal" data-target="#vp-operations">
+              <a href="javascript:void(0)">
+                <h3>VP Operations</h3>
+                <i>Full-time, remote or in United Kingdom / Vienna (Austria) / Tokyo (Japan).</i>
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
             <div class="card-body" data-toggle="modal" data-target="#rust-se">
               <a href="javascript:void(0)">
                 <h3>Software Engineer - Rust (Substrate)</h3>
@@ -64,6 +73,101 @@ tags: [careers]
         </div>
       </div>
 
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="vp-operations" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title"><b>VP Operations</b></h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <i class="material-icons">clear</i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <i>Full-time, remote or in United Kingdom / Vienna (Austria) / Tokyo (Japan).</i>
+        <br>
+        <br>
+        We are looking for a VP of Operations with a strong legal background. The perfect candidate for the position has worked in a FinTech business before and has experience in growing a company under consideration of legal and regulatory requirements. You will help us navigate the possibilities of financial products with a focus on crypto derivatives. At the same time, you will conduct market research and support the founders in their tasks to maintain connections with partners and customers.
+        <br>
+        <br>
+        You will join a young team that works on the forefront of blockchain interoperability. Our technology allows creating trustless assets that enable new types of financial products. We established a position of technological leadership that we maintain by pushing the boundaries of current technology. We are looking for someone that can help us transform our technological advantage into a successful and compliant product.
+        <br>
+        <br>
+        <strong>What you will do</strong>
+        <ul>
+          <li>Work together with the founders to revise and optimise the company’s strategy and product offerings with your prior experience in financial products</li>
+          <li>Lead the assessment of compliance requirements for financial products and, where necessary, work together with our legal team to achieve this</li>
+          <li>Provide guidance on IP/copyright and open-source strategies
+          </li>
+          <li>Proactively develop and analyse business models for strategic decision making</li>
+          <li>
+            Establish and optimize internal processes and provide tooling to help us maintain a lean and flexible working environment
+          </li>
+          <li>Support our partner and customer relationship management</li>
+        </ul>
+        <strong>What you bring</strong>
+        <ul>
+          <li>At least 5 years of professional experience in finance and/or FinTech
+          </li>
+          <li>
+            A deep understanding of regulatory and legal requirements in finance
+          </li>
+          <li>Experience with patents, IP rights, and open-source strategies 
+          </li>
+          <li>
+            You get things done - a proven track record of successfully executed finance projects and business models
+          </li>
+          <li>
+            An understanding of decentralized business models and experience with involving partners to create a successful business
+          </li>
+          <li>Ability to analyse problems quantitatively using tools like G Suite tools, spreadsheets, SQL and Python</li>
+        </ul>
+        <strong>
+          "Nice to have"
+        </strong>
+        <ul>
+          <li>
+            A degree in law from a top-tier university
+          </li>
+          <li>
+            Prior experience in cryptocurrency-based trading platforms
+          </li>
+        </ul>
+        <strong>
+          Benefits and Perks
+        </strong>
+        <ul>
+          <li>
+            Stock options
+          </li>
+          <li>
+            30-day vacation
+          </li>
+          <li>
+            Remote working
+          </li>
+          <li>
+            Travel to international blockchain conferences
+          </li>
+          <li>
+            Allowance for a co-working space
+          </li>
+          <li>
+            Yearly retreat
+          </li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a href="mailto:careers@interlay.io?subject=Application - Software Engineer Rust (Substrate)" target="__blank">
+          <button class="btn btn-block btn-primary">
+            <i class="material-icons">library_books</i> Apply (CV + short statement)
+          </button>
+        </a>
+        <button type="button" class="btn btn-block" data-dismiss="modal">Close</button>
+      </div>
     </div>
   </div>
 </div>
