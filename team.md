@@ -84,7 +84,7 @@ tags: [team]
           </p>
         </div>
         <div class="col-md-6 text-center margin-top-small">
-          <a href="https://greghill.io/" target="__blank">
+          <a href="https://gregdhill.xyz/" target="__blank">
           <img class="profile-image u-round profile-image" src="/../assets/img/profile/gregory.png" alt="Daniel">
             <h4><b>Gregory Hill</b></h4>
           </a>
