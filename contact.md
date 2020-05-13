@@ -49,7 +49,7 @@ tags: [contact]
     <div class="section">
       <div class="col-md-8">
         <h4>Interlay Ltd. is registered in England and Wales, company registration number 10722638.
-          483 Green Lanes, London, England, N13 4BS
+        Quadrant House – Floor 6, 4 Thomas More Square, E1W 1YW, London, United Kingdom
         </h4>
       </div>
     </div>
