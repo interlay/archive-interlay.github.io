@@ -24,7 +24,7 @@ tags: [projects]
               <a href="https://medium.com/interlay/interlay-receives-w3f-grant-to-build-trustless-btc-polkadot-bridge-c4bdb40173a3">
               <img class="d-block w-100" src="/../assets/img/projects/btc-parachain.png">
               </a>
-                <h2>Trustless BTC-Polkadot Bridge</h2>
+                <h2>Trustless BTC-Polkadot Bridge (Alpha Release)</h2>
                 <h3>(open-source, funded by a Web3 Foundation grant)</h3>
               <p>
               We are excited to announce our work on bringing Bitcoin to the Polkadot ecosystem. 
