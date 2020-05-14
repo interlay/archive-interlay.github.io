@@ -15,6 +15,8 @@ tags: [contact]
         <h3>Drop us an email:
           <a href="mailto:contact@interlay.io" target="_blank">contact@interlay.io</a>
         </h3>
+        <h3>Join our <u><a href="https://t.me/interlay">Telegram channel</a></u>
+        </h3>
         <h3>Or follow us online:</h3>
         <div class="row">
 

@@ -16405,6 +16405,20 @@ footer .pull-center {
   background: linear-gradient(60deg, #ec407a, #c2185b);
 }
 
+.card.bg-polkabtc,
+.card.card-rotate.bg-polkabtc .front,
+.card.card-rotate.bg-polkabtc .back {
+  background: linear-gradient(90deg,  #f8931a, #e71778);
+}
+
+.card .card-header-white {
+  background: white;
+}
+.polkabtc {
+  background-image: linear-gradient(90deg,  #f8931a, #e71778);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .card .card-header-primary {
   box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px #82312b;
 }
@@ -16427,6 +16441,10 @@ footer .pull-center {
 
 .card .card-header-success {
   box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(76, 175, 80, 0.6);
+}
+
+.card .card-header-white {
+  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(209, 145, 7, 0.6);
 }
 
 .card [class*="header-"],
