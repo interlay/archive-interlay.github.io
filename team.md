@@ -105,19 +105,6 @@ tags: [team]
            Gregory is a software developer and open-source advocate, with expertise in Go, Rust and TypeScript. Gregory is a core maintainer of Hyperledger Burrow, an EVM-based distributed ledger framework optimized for Proof-of-Stake and consortium networks. Previously, he published research on the intersection between Cryptography and Machine Learning.
           </p>
         </div>
-          <div class="offset-md-3 col-md-6 text-center margin-top-small">
-          <a href="https://jaupe.github.io/" target="__blank">
-          <img class="profile-image u-round profile-image" src="/../assets/img/profile/jamie.jpeg" alt="Jamie">
-            <h4><b>Jamie Perry</b></h4>
-          </a>
-          <h4>Software Engineer</h4>
-          <a class="" href="https://github.com/jaupe" target="_blank">
-            <i class="fa fa-github"></i>
-          </a>&nbsp;
-          <p class="text-justify">
-          Jamie is a software engineer with a background in algorithmic trading. Previously, he was a co-founder of a Boston-based startup backed by Sequoia Capital and Techstars.  His research interests are machine learning of non-stationary data and econometrics of cryptocurrencies.
-          </p>
-        </div>
       </div>
     </div>
   </div>
