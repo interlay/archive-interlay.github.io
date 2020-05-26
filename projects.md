@@ -5,11 +5,11 @@ layout: default
 tags: [projects]
 ---
 
-<div class="main page-header-padding">
+<div class="main">
   <div class="container">
     <div class="section text-left">
       <div class="col-md-8">
-        <h2>Explore our Projects</h2>
+        <h2>Products</h2>
       </div>
     </div>
   </div>
@@ -24,10 +24,10 @@ tags: [projects]
               <a href="https://medium.com/interlay/interlay-receives-w3f-grant-to-build-trustless-btc-polkadot-bridge-c4bdb40173a3">
               <img class="d-block w-100" src="/../assets/img/projects/btc-parachain.png">
               </a>
-                <h2>Trustless BTC-Polkadot Bridge (Alpha Release)</h2>
+                <h2>Trustless BTC-Polkadot Bridge </h2>
                 <h3>(open-source, funded by a Web3 Foundation grant)</h3>
               <p>
-              We are excited to announce our work on bringing Bitcoin to the Polkadot ecosystem. 
+              We are bringing Bitcoin to the Polkadot ecosystem. 
               XCLAIM, the framework underlying the BTC-Parachain, is a carefully designed, open and trustless system that leverages a dynamic set of collateralized intermediaries. Intermediaries are obligated to prove correct transaction execution on Bitcoin, which ensures that users face no financial damage.
               </p>
               <div class="row">
@@ -49,7 +49,6 @@ tags: [projects]
         </div>
       </div>
     </div>
+
   </div>
 </div>
-
-

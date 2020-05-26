@@ -8,8 +8,8 @@ tags: [Blockchain, DeFi, Bitcoin, Ethereum, Decentralized Finance]
     <div class="row">
       <div class="col-md-8 ml-auto mr-auto">
         <div class="brand text-left">
-          <h1>Interlay: Decentralized Finance Made Interoperable.</h1>
-          <h3 class="title text-left">Use any asset on any DeFi platform. Fast. Secure. Trustless.
+          <h1><!--Interlay:--> Decentralized Finance Made Interoperable.</h1>
+          <h3 class="title text-left">Use any asset on any blockchain platform. Fast. Secure. Trustless.
           </h3>
         </div>
       </div>

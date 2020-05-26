@@ -5,18 +5,13 @@ permalink: /careers/
 tags: [careers]
 ---
 
-<div class="main page-header-padding">
+<div class="main">
   <div class="container">
     <div class="section text-left">
       <h2>We are hiring!
       </h2>
       We are looking for talented software engineers and researchers to join our team!
     </div>
-  </div>
-</div>
-
-<div class="main ">
-  <div class="container">
     <div class="section">
       <div class="row">
         <div class="col-md-12">
@@ -161,7 +156,7 @@ tags: [careers]
         </ul>
       </div>
       <div class="modal-footer">
-        <a href="mailto:careers@interlay.io?subject=Application - Software Engineer Rust (Substrate)" target="__blank">
+        <a href="mailto:careers@interlay.io?subject=Application - VP Operations" target="__blank">
           <button class="btn btn-block btn-primary">
             <i class="material-icons">library_books</i> Apply (CV + short statement)
           </button>

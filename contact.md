@@ -6,7 +6,7 @@ layout: default
 tags: [contact]
 ---
 
-<div class="main page-header-padding">
+<div class="main">
   <div class="container">
     <div class="section text-left">
       <div class="col-md-8">
