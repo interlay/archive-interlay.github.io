@@ -37,6 +37,3 @@ You will join a young team of blockchain experts that works at the forefront of 
 * Allowance for a co-working space
 * Yearly retreat
 
-
-<p>test</p>
-
