@@ -38,7 +38,56 @@ tags: [careers]
           </div>
         </div>
       </div>
-      <h3>Company Culture</h3>
+      <h3>Perks</h3>
+      Probably not the main reason you will choose to come to Interlay, but we try to make coming to work every day just a little bit better.
+      <div class="row mt-3">
+        <div class="col-md-6 text-center">
+            <img class="rounded" width="64" src="/assets/img/icons/globe.png">
+            <br/>
+          <b>Remote Office</b> 
+          <br/>
+            Work from wherever your like. Meet colleagues all over the world.
+        </div>
+        <div class="col-md-6 text-center">
+            <img class="rounded" width="64" src="/assets/img/icons/stopwatch.png">
+            <br/>
+          <b>Flexible Work Hours</b> 
+          <br/>
+            We don't believe in 9-5. Work when you are most productive. There's always someone online - a perk of being distributed across time zones. 
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-6 text-center">
+            <img class="rounded" width="64" src="/assets/img/icons/office.png">
+            <br/>
+          <b>Co-working Space</b> 
+          <br/>
+            Don't want to work from home? We'll support you with finding a co-working space. 
+        </div>
+        <div class="col-md-6 text-center">
+            <img class="rounded" width="64" src="/assets/img/icons/education.png">
+            <br/>
+          <b>Research & Knowledge Transfers</b> 
+          <br/>
+            Being a research-driven start-up, we support your training and research interests & organize regular knowledge transfer workshops.         
+          </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-6 text-center">
+            <img class="rounded" width="64" src="/assets/img/icons/hack.png">
+            <br/>
+          <b>Hackathons & Challenges</b> 
+          <br/>
+            When designing/testing new open source software, we like to participate in hackathons for short sprints for fun and PR.
+        </div>
+        <div class="col-md-6 text-center">
+            <img class="rounded" width="64" src="/assets/img/icons/island.png">
+            <br/>
+          <b>Yearly Retreat</b> 
+          <br/>
+            We like traveling and hanging out together in real life is awesome.          </div>
+      </div>
+      <h3 class="mt-5">Company Culture</h3>
         Interlay is a <b>fully remote company</b>, distributed across London, Vienna, Edinburgh and Tokyo. This means we need to openly communicate as effectively as possible.
         Inspired by <a href="https://about.gitlab.com/blog/2015/04/08/the-remote-manifesto/" target="__blank" rel="nofollow">Gitlab's Remote Manifasto</a>, we stick to 7 principles for remote working:
         <br/>
@@ -50,6 +99,7 @@ tags: [careers]
         {{ manifesto | unindent | markdownify }}
         </div>
       </div>
+      
   </div>
 </div>
 
