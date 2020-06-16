@@ -16444,7 +16444,7 @@ footer .pull-center {
 }
 
 .card .card-header-white {
-  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(209, 145, 7, 0.6);
+  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px #82312b;
 }
 
 .card [class*="header-"],

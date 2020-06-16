@@ -67,12 +67,24 @@ tags: [Blockchain, DeFi, Bitcoin, Ethereum, Decentralized Finance]
         </div>
       </div>
       <div class="row">
-        <div class="offset-md-3 col-md-6">
+        <div class=" col-md-6">
           <div class="card bg-polkabtc text-center">
             <a href="mailto:vaults@interlay.io" target="__blank">
             <div class="card-header card-header-white">
               <img src="assets/img/btc2polkadot.png" alt="polkaBTC" width="100%">
                 <h4 class="polkabtc">Become a PolkaBTC Validator, Vault, or Staked Relayer</h4>
+            </div>
+            <div class="card-body">
+            </div>
+            </a>
+          </div>
+        </div>
+        <div class=" col-md-6">
+          <div class="card text-center">
+            <a href="https://xopts.io" target="__blank">
+            <div class="card-header card-header-white">
+              <img src="assets/img/xopts-button.png" alt="xopts" width="100%">
+                <h4 style="color:#510000">Buy & Sell non-custodial BTC options using DAI.</h4>
             </div>
             <div class="card-body">
             </div>
