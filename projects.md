@@ -7,18 +7,21 @@ tags: [projects]
 
 <div class="main">
   <div class="container">
-
     <div class="section text-left">
-      <div class="col-md-8">
-        <h2>Products</h2>
-      </div>
-    </div>
-
-  </div>
-</div>
-<div class="main ">
-  <div class="container">
-    <div class="section">
+         <h2>Bleeding-edge tech backed by top-tier research</h2>
+          <div class="row">
+          <div class="col-md-12">
+            The open-source XCLAIM framework allows users to move assets across public/permissionless blockchains such as Bitcoin and Ethereum in a trustless manner. Enterprises, on the other hand, can utulize XCLAIM to execute settlements across different permissioned ledgers, choosing from a palette of possible trust models based on use case and required security. 
+            <br/>
+            <br/>
+            To fully exploit the benefits of interoperability, Interlay is also building a trustless and non-custodial trading platform for cross-chain derivative trading (e.g. BTC/ETH, BTC/DAI and BTC/DOT).
+            <br/>
+            <br/>
+            Check out our code at <a href="https://github.com/interlay" target="__blank"><u>github.com/interlay</u></a>
+            <br/>
+            <br/>
+            </div>
+          </div>
           <div class="row">
             <div class="col-lg-6">
               <div class="card">
@@ -56,10 +59,10 @@ tags: [projects]
                   </a>
                     <h2>Non-Custodial Bitcoin Options </h2>
                   <p>
-                  XOpts is the first trustless and non-custodial platform for buying, selling and trading Bitcoin options - cross-chain on Ethereum. XOpts enables sellers to lock DAI collateral in a contract and to mint ERC-20 compatible option tokens that can be traded on exchanges like Uniswap. Buyers can insure an arbitrary amount of BTC relative to the contract's strike price and pay a premium in DAI. Options are exercised directly on Bitcoin, while XOpts enforces correct settlements via SPV proofs using BTC-Relay.                   
+                  XOpts is the first trustless and non-custodial platform for buying, selling and trading Bitcoin options. Currently built on Ethereum, XOpts enables users to buy and sell Bitcoin options using DAI, or any other stablecoin, as insurance collateral. The option contracts can be traded on decentralized exchanges like Uniswap. Settlement occurs on Bitcoin and is enforced via SPV proofs.               
                   <br>
                   <br>
-                  <b>Open-source</b>
+                  <b>Open-source, live on Ethereum Ropsten Testnet</b>
                   </p>
                   <div class="row">
                   <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://xopts.io/" target="_blank" data-original-title="Try it out">
@@ -77,6 +80,5 @@ tags: [projects]
         </div>
       </div>
     </div>
-
   </div>
 </div>

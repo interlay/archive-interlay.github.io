@@ -8,14 +8,9 @@ tags: [team]
 <div class="main">
   <div class="container">
     <div class="section text-left">
-      <div class="col-md-8">
-        <h2>We are a team of leading experts in blockchain interoperability, security and crypto-economics.</h2>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="section">
-      <div class="row">
+      <h2>Meet the Team</h2>
+      We are a team of leading experts in blockchain interoperability, security and crypto-economics, distributed across London, Vienna, Edinburgh and Tokyo.
+      <div class="row mt-4">
         <div class="col-md-6 text-center margin-top-small">
           <a href="https://alexeizamyatin.me" target="__blank">
           <img class="profile-image u-round profile-image" src="/../assets/img/profile/alexei.jpg" alt="Alexei">
@@ -44,7 +39,7 @@ tags: [team]
             <h4><b>Dominik Harz</b></h4>
           </a>
           <h4>Co-Founder and CTO</h4>
-          <a class="" href="https://twitter.com/nud3l_" target="_blank">
+          <a class="" href="https://twitter.com/dominik0_" target="_blank">
             <i class="fa fa-twitter"></i>
           </a>&nbsp;
           <a class="" href="https://github.com/nud3l" target="_blank">
@@ -106,5 +101,17 @@ tags: [team]
           </p>
         </div>
       </div>
+      <h3>Company Culture</h3>
+        Interlay is a <strong>fully remote company</strong>, distributed across different time zones. This means we need to openly communicate as effectively as possible.
+        Inspired by <a href="https://about.gitlab.com/blog/2015/04/08/the-remote-manifesto/" target="__blank" rel="nofollow">Gitlab's Remote Manifasto</a>, we stick to 7 principles for remote working:
+                <br/>
+        <br/>
+        {% capture manifesto %}
+          {% include remote-manifest.md %}
+        {% endcapture %}
+        {{ manifesto | unindent | markdownify }}
+
+      </div>
     </div>
+
 </div>

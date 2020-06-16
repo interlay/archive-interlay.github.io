@@ -5,6 +5,7 @@ tags: [Blockchain, DeFi, Bitcoin, Ethereum, Decentralized Finance]
 ---
 <div class="page-header header-filter" data-parallax="true">
   <div class="container">
+
     <div class="row">
       <div class="col-md-8 ml-auto mr-auto">
         <div class="brand text-left">
@@ -14,12 +15,15 @@ tags: [Blockchain, DeFi, Bitcoin, Ethereum, Decentralized Finance]
         </div>
       </div>
     </div>
+
   </div>
 </div>
+
 <div class="main">
   <div class="container">
-    <div class="section text-right">
-      <div class="offset-md-4 col-md-8">
+
+    <div class="section text-left">
+      <div class="col-md-8">
         <h2><i>"Trustless cross-blockchain communication is <b>impossible</b>...</i>"</h2>
         <h3>We have <a href="https://eprint.iacr.org/2019/1128.pdf" target="__blank" rel="tooltip" title=""
             data-placement="bottom" data-original-title="Don't trust, verify by reading the paper!"><b>proven</b></a>
@@ -31,7 +35,7 @@ tags: [Blockchain, DeFi, Bitcoin, Ethereum, Decentralized Finance]
 <div class="main">
   <div class="container">
     <div class="section">
-      <div class="col-md-8 text-left">
+      <div class="offset-md-4 col-md-8 text-right">
         <h2><i>"... but we can <b>prevent</b> centralization, censorship, and financial damage to users."</i></h2>
         <h3>We are building <a href="https://www.xclaim.io/" target="__blank" rel="tooltip" title="" data-placement="top"
             data-original-title="Curious? Jump to project page!"><b>XCLAIM</b></a>, the first framework for
@@ -39,13 +43,14 @@ tags: [Blockchain, DeFi, Bitcoin, Ethereum, Decentralized Finance]
       </div>
     </div>
   </div>
+  
   <div class="container">
     <div class="section">
       <div class="row">
         <div class="col-md-6">
           <div class="card">
             <a href="https://eprint.iacr.org/2018/643.pdf" target="__blank">
-            <div class="card-header card-header-danger">
+            <div class="card-header card-header-primary">
               <h3>Technical paper</h3>
             </div>
             <div class="card-body">
@@ -57,8 +62,8 @@ tags: [Blockchain, DeFi, Bitcoin, Ethereum, Decentralized Finance]
           <div class="card">
             <a href="https://www.ieee-security.org/TC/SP2019/SP19-Slides-pdfs/Alexei_Zamyatin_-_02-Alexei_Zamyatin-XCLAIM_Trustless_Interoperable_Cryptocurrency-Backed_Assets.pdf"
               target="__blank">
-              <div class="card-header card-header-primary">
-                <h3>Light paper</h3>
+              <div class="card-header card-header-white">
+                <h3 style="color: #510000;">Light paper</h3>
               </div>
               <div class="card-body">
               </div>
@@ -93,5 +98,6 @@ tags: [Blockchain, DeFi, Bitcoin, Ethereum, Decentralized Finance]
         </div>
         </div>
     </div>
+
   </div>
 </div>

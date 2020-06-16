@@ -10935,7 +10935,7 @@ a .material-icons {
 
 .form-check,
 label {
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 1.42857;
   color: #AAAAAA;
   font-weight: 400;
@@ -12012,7 +12012,7 @@ form {
   padding-left: 0;
   padding-right: 0;
   border-radius: 0;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .form-control:focus,
@@ -12025,19 +12025,19 @@ form {
 .form-control::-moz-placeholder {
   color: #AAAAAA;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .form-control:-ms-input-placeholder {
   color: #AAAAAA;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .form-control::-webkit-input-placeholder {
   color: #AAAAAA;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .has-white .form-control::-moz-placeholder {
@@ -14717,7 +14717,7 @@ h6,
 }
 
 p {
-  font-size: 14px;
+  font-size: 1rem;
   margin: 0 0 10px;
 }
 
@@ -16111,6 +16111,7 @@ footer {
   padding: 0.9375rem 0;
   text-align: center;
   display: -webkit-flex;
+  font-size: 14px;
   /* Safari */
   /* Safari 6.1+ */
   display: flex;
@@ -16293,7 +16294,7 @@ footer .pull-center {
   margin-right: 15px;
   margin-top: -30px;
   border: 0;
-  background: linear-gradient(60deg, #eee, #bdbdbd);
+  background: linear-gradient(120deg, #bdbdbd, #eee);
 }
 
 .card .card-header .title {
@@ -16405,6 +16406,13 @@ footer .pull-center {
   background: linear-gradient(60deg, #ec407a, #c2185b);
 }
 
+.card.header-light,
+.card-bd-light,
+.card.card-rotate.bg-light .front,
+.card.card-rotate.bg-light .back {
+  background: linear-gradient(60deg,  #82312b, #ffffff);
+}
+
 .card.bg-polkabtc,
 .card.card-rotate.bg-polkabtc .front,
 .card.card-rotate.bg-polkabtc .back {
@@ -16418,6 +16426,10 @@ footer .pull-center {
   background-image: linear-gradient(90deg,  #f8931a, #e71778);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.card .card-header-white {
+  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px #727272;
 }
 .card .card-header-primary {
   box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px #82312b;
