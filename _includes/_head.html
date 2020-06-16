@@ -1,20 +1,23 @@
 <meta charset="utf-8">
 <title>{{ site.title }} {% if page.title %} &#8211; {{ page.title }} {% endif %}</title>
 <meta name="description" content="{{ site.description }}">
-<meta name="keywords" content="blockchain, interoperability, blockchain interoperability, bitcoin, ethereum, decentralized finance, defi">
+<meta name="keywords"
+  content="blockchain, interoperability, blockchain interoperability, bitcoin, ethereum, decentralized finance, defi">
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:description"
+  content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta name="twitter:site" content="@{{ site.owner.twitter }}">
-<meta name="twitter:image" content="https://www.interlay.io/assets/img/interlay-medium.png"> 
+<meta name="twitter:image" content="https://www.interlay.io/assets/img/interlay-medium.png">
 <meta name="twitter:image:alt" content="Interlay logo">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:description"
+  content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 <meta property="og:site_name" content="{{ site.title }}">
 
@@ -22,13 +25,15 @@
 {"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"{{ site.url }}/#website","url":"{{ site.url }}/","name":"{{ site.title }}","inLanguage":"en-US","potentialAction":{"@type":"SearchAction","target":"{{ site.url }}/?s={search_term_string}","query-input":"required name=search_term_string"}},
 {"@type":"WebPage","@id":"{{ site.url }}{{ page.url }}/#webpage","url":"{{ site.url }}{{ page.url }}","name":"{{ site.title }} {% if page.title %} &#8211; {{ page.title }} {% endif %}","isPartOf":{"@id":"{{ site.url }}/#website"},"inLanguage":"en-US"}]}</script>
 
-{% if site.google_verify %}<!-- Webmaster Tools verfication -->
+{% if site.google_verify %}
+<!-- Webmaster Tools verfication -->
 <meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
-{% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
+{% if site.bing_verify %}
+<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
 
 
 {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
- <link rel="canonical" href="{{ canonical }}">
+<link rel="canonical" href="{{ canonical }}">
 <!--
 <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 {% if site.owner.google_plus %}<link rel="author" href="http://plus.google.com/{{ site.owner.google_plus }}?rel=author">{% endif %}
@@ -39,7 +44,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Google Webfonts -->
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons&display=swap" rel="stylesheet" type="text/css"/>
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons&display=swap"
+  rel="stylesheet" type="text/css" />
 <!-- For all browsers -->
 <link href="/../assets/css/material-kit.css" rel="stylesheet" />
 <link href="/../assets/css/custom.css" rel="stylesheet" />
@@ -80,3 +87,5 @@
     "downloadUrl" : "https://gitlab.com/interlay/btc-parachain"
   }
   </script>
+
+

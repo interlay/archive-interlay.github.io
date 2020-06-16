@@ -29,7 +29,7 @@ tags: [careers]
             </div>
           </div>
           <div class="card">
-            <div class="card-body" data-toggle="modal" data-target="#rust-se">
+            <div class="card-body" data-toggle="modal" data-target="#software-engineer">
               <a href="javascript:void(0)">
                 <h3>Software Engineer (Rust)</h3>
                 <i>Full time. Remote, preferably based in UK</i>
@@ -98,7 +98,7 @@ tags: [careers]
         <br/>
       </div>
       <div class="modal-footer">
-        <a href="mailto:careers@interlay.io?subject=Application - VP Operations" target="__blank">
+        <a href="mailto:careers@interlay.io?subject=Application - Frontend Engineer" target="__blank">
           <button class="btn btn-block btn-primary">
             <i class="material-icons">library_books</i> Apply (CV + short statement)
           </button>
@@ -109,7 +109,7 @@ tags: [careers]
   </div>
 </div>
 
-<div class="modal fade" id="rust-se" tabindex="-1" role="dialog">
+<div class="modal fade" id="software-engineer" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -126,7 +126,7 @@ tags: [careers]
         <br/>
       </div>
       <div class="modal-footer">
-        <a href="mailto:careers@interlay.io?subject=Application - VP Operations" target="__blank">
+        <a href="mailto:careers@interlay.io?subject=Application - Software Engineer" target="__blank">
           <button class="btn btn-block btn-primary">
             <i class="material-icons">library_books</i> Apply (CV + short statement)
           </button>

@@ -1,7 +1,8 @@
 
 
-We are looking for a (senior) Rust software engineer to help us implement Interlay's cross-chain communication platform. The current design revolves around a trustless Bitcoin-[Polkadot](https://polkadot.network/) bridge that will serve as the main gateway for bringing Bitcoin liquidity into Polkadot's ecosystem. Polkadot, developed by [Parity Technologies](https://www.parity.io/) and the [Web3 Foundation](https://web3.foundation/), is one of the industry's flagship projects and has raised over USD 150 million. 
+We are looking for a (senior) Rust software engineer to help us implement Interlay's cross-chain communication platform. 
 
+The current design revolves around a trustless Bitcoin-[Polkadot](https://polkadot.network/) bridge that will serve as the main gateway for bringing Bitcoin liquidity into Polkadot's ecosystem. Polkadot, developed by [Parity Technologies](https://www.parity.io/) and the [Web3 Foundation](https://web3.foundation/), is one of the industry's flagship projects and has raised over USD 150 million. 
 The implementation follows a [detailed specification](https://interlay.gitlab.io/polkabtc-spec/index.html) and is based on the [XCLAIM paper](https://eprint.iacr.org/2018/643.pdf), published at the top-tier security conference IEEE S&amp;P. In parallell, we are building a trustless &amp; non-custodial trading platform for cross-chain derivatives, with a focus on Bitcoin. 
 
 Your task will be to extend and improve the existing architecture ([Github repo](https://github.com/interlay/BTC-Parachain)), developed in Rust using Party's [Substrate](https://substrate.dev/) framework. In parallel, you will aid with the design and implementation of the trustless derivative trading platform, diving into high performance computing. 

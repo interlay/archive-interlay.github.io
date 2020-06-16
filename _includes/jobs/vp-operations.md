@@ -1,5 +1,7 @@
 
-We are looking for a VP of Operations with a strong legal background. The perfect candidate for the position has worked in a FinTech business before and has experience in growing a company under consideration of legal and regulatory requirements. You will help us navigate the possibilities of financial products with a focus on crypto derivatives. At the same time, you will conduct market research and support the founders in their tasks to maintain connections with partners and customers - working towards an investment round.
+We are looking for a VP of Operations with a financial background. 
+
+The perfect candidate for the position has worked in a FinTech business before and has experience in growing a company under consideration of legal and regulatory requirements. You will help us navigate the possibilities of financial products with a focus on crypto derivatives. At the same time, you will conduct market research and support the founders in their tasks to maintain connections with partners and customers - working towards an investment round.
 
 You will join a young team of blockchain experts that works at the forefront of secure and trustless blockchain interoperability. Our technology allows users to move digital assets across different platforms, enabling new types of financial products. Through years of research, we established a position of technological leadership that we maintain by pushing the boundaries of current technology. We are looking for someone that can help us transform our technological advantage into a successful and compliant product - in a field where open source software is a critical requirement for credibility. 
 

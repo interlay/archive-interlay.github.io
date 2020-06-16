@@ -1,7 +1,8 @@
 
 
-We are looking for a frontend engineer to help us implement Interlay's cross-chain communication platform. The current design revolves around a trustless Bitcoin-[Polkadot](https://polkadot.network/) bridge that will serve as the main gateway for bringing Bitcoin liquidity into Polkadot's ecosystem. Polkadot, developed by [Parity Technologies](https://www.parity.io/) and the [Web3 Foundation](https://web3.foundation/), is one of the industry's flagship blockchains and has raised over USD 150 million. 
+We are looking for a frontend engineer to help us implement Interlay's cross-chain communication platform. 
 
+The current design revolves around a trustless Bitcoin-[Polkadot](https://polkadot.network/) bridge that will serve as the main gateway for bringing Bitcoin liquidity into Polkadot's ecosystem. Polkadot, developed by [Parity Technologies](https://www.parity.io/) and the [Web3 Foundation](https://web3.foundation/), is one of the industry's flagship blockchains and has raised over USD 150 million. 
 The underlying framework follows a [detailed specification](https://interlay.gitlab.io/polkabtc-spec/index.html) and is based on the [XCLAIM paper](https://eprint.iacr.org/2018/643.pdf), published at the top-tier security conference IEEE S&amp;P. In parallel, we are building a trustless &amp; non-custodial trading platform for cross-chain derivatives, with a focus on Bitcoin. 
 
 Your task will be to design and build the web-based user interface using **React** and **TypeScript** for (i) the cross-chain communication framework and (ii) the trustless trading platform. Thereby, you will connect the frontend to the Polkadot and Ethereum blockchains via REST/RPC, and design usable integrations into Bitcoin (web) wallets.  
