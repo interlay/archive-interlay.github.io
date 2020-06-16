@@ -101,15 +101,6 @@ tags: [team]
           </p>
         </div>
       </div>
-      <h3>Company Culture</h3>
-        Interlay is a <strong>fully remote company</strong>, distributed across different time zones. This means we need to openly communicate as effectively as possible.
-        Inspired by <a href="https://about.gitlab.com/blog/2015/04/08/the-remote-manifesto/" target="__blank" rel="nofollow">Gitlab's Remote Manifasto</a>, we stick to 7 principles for remote working:
-                <br/>
-        <br/>
-        {% capture manifesto %}
-          {% include remote-manifest.md %}
-        {% endcapture %}
-        {{ manifesto | unindent | markdownify }}
 
       </div>
     </div>
