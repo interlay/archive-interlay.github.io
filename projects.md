@@ -32,8 +32,6 @@ tags: [projects]
                   XCLAIM, the framework underlying the BTC-Parachain, is a carefully designed, open and trustless system that leverages a dynamic set of collateralized intermediaries. Intermediaries are obligated to prove correct transaction execution on Bitcoin, which ensures that users face no financial damage.
                   <br>
                   <br>
-                  <br>
-                  <br>
                   <b>Open-source, funded by a Web3 Foundation grant</b>
                   </p>
                   <div class="row">
