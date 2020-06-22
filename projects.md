@@ -8,7 +8,7 @@ tags: [projects]
 <div class="main">
   <div class="container">
     <div class="section text-left">
-         <h2>Bleeding-edge tech backed by top-tier research</h2>
+         <h2>Products</h2>
           <div class="row">
           <div class="col-md-12">
             The open-source XCLAIM framework allows users to move assets across public/permissionless blockchains such as Bitcoin and Ethereum in a trustless manner. Enterprises, on the other hand, can utulize XCLAIM to execute settlements across different permissioned ledgers, choosing from a palette of possible trust models based on use case and required security. 

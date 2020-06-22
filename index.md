@@ -74,7 +74,7 @@ tags: [Blockchain, DeFi, Bitcoin, Ethereum, Decentralized Finance]
       <div class="row">
         <div class=" col-md-6">
           <div class="card bg-polkabtc text-center">
-            <a href="mailto:vaults@interlay.io" target="__blank">
+            <a href="https://forms.gle/MzcRgEwqBAHvTs1G6" target="__blank">
             <div class="card-header card-header-white">
               <img src="assets/img/btc2polkadot.png" alt="polkaBTC" width="100%">
                 <h4 class="polkabtc">Become a PolkaBTC Validator, Vault, or Staked Relayer</h4>
