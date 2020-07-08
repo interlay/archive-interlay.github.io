@@ -1,14 +1,24 @@
+
+- title: " Interoperable Blockchains May Be the Future of Finance but Have a Ways Yet to Go"
+  date: 3 July 2020
+  author: Cointelegraph
+  summary: Our CEO Alexei Zamyatin discusses the current state and future potential of blockchain interoperability with Cointelegraph. 
+  url: https://cointelegraph.com/news/interoperable-blockchains-may-be-the-future-of-finance-but-have-a-ways-yet-to-go
+
 - title: "Polkadot Is Latest Blockchain to Explore Redeemable Bitcoin Tokens"
   date: 18 June 2020
   author: Coindesk
   summary: Coindesk covers Interlay's release of the open source PoC for a trustless bridge from Bitcoin to Polkadot. BTC can be locked on Bitcoin and minted as PolkaBTC on Polkadot. 
+  url: https://www.coindesk.com/polkadot-is-latest-blockchain-to-explore-redeemable-bitcoin-tokens
 
 - title: "Spotify-Like Subscription Model Proposed for Collateral Payments"
   date: 14 May 2020
   author: Cointelegraph
-  summary: Cointelegraph covers our research on "Promise", a new blockchain protocol to reduce collateral requirements in cross-chain applications.
+  summary: Cointelegraph covers our research on "Promise", a new blockchain protocol to reduce collateral requirements in cross-chain applications, featuring an interview with out CTO Dominik Harz. 
+  url: https://cointelegraph.com/news/spotify-like-subscription-model-proposed-for-collateral-payments
 
 - title: "Web3 Foundation Funds Technical Bridge Connecting Polkadot to Bitcoin"
   date: 5 May 2020
   author: Coindesk
   summary: Coindesk reports on Interlay receiving a grant from the Web3 Foundation, the non-profit entity behind Polkadot, to build a trustless bridge from Bitcoin (BTC) to the multi-blockchain network Polkadot. 
+  url: https://www.coindesk.com/web3-foundation-funds-technical-bridge-connecting-polkadot-to-bitcoin

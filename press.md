@@ -13,7 +13,7 @@ tags: [press]
             <h3>Press Coverage</h3>
             {% for post in site.data.press %}
             <div class="card">
-                <a href="https://www.coindesk.com/polkadot-is-latest-blockchain-to-explore-redeemable-bitcoin-tokens">
+                <a href="{{ post.url}}">
                     <div class="card-body">
                         <h4><b>{{ post.title }}</b></h4>
                         <h4>{{ post.author }}</h4>
