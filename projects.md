@@ -54,7 +54,7 @@ tags: [projects]
             <div class="col-lg-6">
               <div class="card">
                 <div class="card-body">
-                  <a href="xopts.io">
+                  <a href="https://xopts.io">
                   <img class="d-block w-100" src="/../assets/img/projects/xopts-banner.png">
                   </a>
                     <h2>Non-Custodial Bitcoin Options </h2>

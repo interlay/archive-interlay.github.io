@@ -52,8 +52,7 @@ tags: [team]
             <i class="fa fa-linkedin"></i>
           </a>
           <p class="text-justify">
-          Dominik combines expertise in smart contract development and incentive design, researching these topics during his PhD at Imperial College London. 
-          Previously, Dominik worked as a consultant for cybersecurity and cloud computing at PwC, delivering compliance services for state-of-the-art technology projects with companies like SAP, Deutsche Telekom, and Cisco.
+          Dominik combines expertise in smart contract development and incentive design, researching these topics during his PhD at Imperial College London. Previously, Dominik worked as a consultant for cybersecurity and cloud computing at PwC, delivering compliance services for state-of-the-art technology projects with companies like SAP, Deutsche Telekom, and Cisco.          
           </p>
         </div>
         <div class="col-md-6 text-center margin-top-small">
