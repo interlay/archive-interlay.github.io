@@ -1,8 +1,50 @@
 - name: Alexei Zamyatin
-  bio: 
+  role: Co-Founder & CEO
+  bio: Imperial College CS PhD (exp.’20), 5 years blockchain security & interoperability research. Previously SBA Research, Accenture, UNOV. TU Vienna CS MSc ’17. BinanceX Fellow.
+  twitter: alexeiZamyatin
+  linkedin: alexei-zamyatin
+  github: alexeiZamyatin
+  scholar: BJDPyu0AAAAJ  
+  website: https://alexeizamyatin.me
+  image: alexei.jpg
+  offset: true
+
 - name: Dominik Harz
-  bio:  Imperial College PhD (exp.'20), DeFi and smart contract expert. Previously cybersecurity and cloud at PwC. CS MSc TU Delft.
+  role: Co-Founder & CTO 
+  bio:  Imperial College PhD (exp.'20), DeFi and smart contract expert. Previously, cybersecurity and cloud at PwC. KTH / TU Delft CS MSc ‘17. BinanceX Fellow. 
+  twitter: dominik0_
+  linkedin: dominik-harz
+  github: nud3l
+  scholar: s6Km5yQAAAAJ  
+  website: https://dominikharz.me/
+  image: dom.png
+
+
 - name: Daniel Perez
-  bio: 
+  role: Researcher & Software Engineer
+  bio: Imperial College CS PhD (exp.'21), security and distributed virtual machines. Open source advocate with 2000+ stars on Github. Previously CTO at 2 start-ups. Tokyo University CS MSc ‘18. BinanceX Fellow.
+  twitter: danhper
+  linkedin: danhper
+  github: danhper
+  scholar: W2XsCqwAAAAJ  
+  website: https://daniel.perez.sh/
+  image: daniel.jpg
+
+
 - name: Gregory Hill
-  bio: 
+  role: Software Engineer
+  bio: Maintainer of Hyperledger Burrow, open source advocate. Previously at Monax. University of Edinburgh CS Msc ‘18, with focus on ML & cryptography.
+  twitter: gregorydhill
+  linkedin: gregorydhill95
+  github: gregdhill
+  scholar: OoKiidsAAAAJ  
+  image: gregory.png
+
+
+- name: Filip Djordjevic
+  role: Software Engineer
+  bio: Software Engineer with 8+ years experience, focusing on embedded, web and mobile tech., with a passion for UI/UX. Previously, CTO of Toronto-based Devinity Corp. Belgrade University CS MSc. 
+  linkedin: filip-djordjevic-2a3a9054
+  github: filip-djordjevic
+  image: filip.jpg
+
