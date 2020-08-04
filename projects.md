@@ -26,7 +26,7 @@ tags: [projects]
             <div class="col-lg-6">
               <div class="card">
                 <div class="card-body">
-                  <a href="https://medium.com/interlay/interlay-receives-w3f-grant-to-build-trustless-btc-polkadot-bridge-c4bdb40173a3">
+                  <a href="https://medium.com/interlay/bitcoin-on-polkadot-proof-of-concept-for-trustless-bridge-shipped-6fb8e549bef0">
                   <img class="d-block w-100" src="/../assets/img/projects/btc-parachain.png">
                   </a>
                     <h2>Trustless BTC-Polkadot Bridge </h2>
