@@ -1,8 +1,8 @@
 ---
-title: Projects
-permalink: /projects/
+title: Products
+permalink: /products/
 layout: default
-tags: [projects]
+tags: [products]
 ---
 
 <div class="main">
@@ -38,8 +38,8 @@ tags: [projects]
                   <b>Open-source, funded by a Web3 Foundation grant</b>
                   </p>
                   <div class="row">
-                  <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://gitlab.com/interlay/btc-parachain" target="_blank" data-original-title="Gitlab repo">
-                  <i class="fa fa-gitlab fa-3x"></i>
+                  <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://github.com/interlay/BTC-Parachain" target="_blank" data-original-title="Open-source code">
+                  <i class="fa fa-github fa-3x"></i>
                   </a>
                   <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://interlay.gitlab.io/polkabtc-spec/" target="_blank" data-original-title="Specification">
                   <i class="fa fa-book fa-3x"></i>
@@ -57,7 +57,7 @@ tags: [projects]
                   <a href="https://xopts.io">
                   <img class="d-block w-100" src="/../assets/img/projects/xopts-banner.png">
                   </a>
-                    <h2>Non-Custodial Bitcoin Options </h2>
+                    <h2>Zero-Trust Bitcoin Options</h2>
                   <p>
                   XOpts is the first trustless and non-custodial platform for buying, selling and trading Bitcoin options. Currently built on Ethereum, XOpts enables users to buy and sell Bitcoin options using DAI, or any other stablecoin, as insurance collateral. The option contracts can be traded on decentralized exchanges like Uniswap. Settlement occurs on Bitcoin and is enforced via SPV proofs.               
                   <br>
@@ -68,7 +68,7 @@ tags: [projects]
                   <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://xopts.io/" target="_blank" data-original-title="Try it out">
                   <i class="fa fa-desktop fa-3x"></i>
                   </a>
-                  <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://gitlab.com/interlay/xopts" target="_blank" data-original-title="Open-source code">
+                  <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://github.com/interlay/xopts" target="_blank" data-original-title="Open-source code">
                   <i class="fa fa-github fa-3x"></i>
                   </a>
                   <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://xopts.io/help" target="_blank" data-original-title="User guide">
