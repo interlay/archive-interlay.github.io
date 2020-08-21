@@ -11,7 +11,7 @@
 
 - name: Dominik Harz
   role: Co-Founder & CTO 
-  bio:  Imperial College PhD (exp.'20), DeFi and smart contract expert. Previously, cybersecurity and cloud at PwC. KTH / TU Delft CS MSc ‘17. BinanceX Fellow. 
+  bio:  Imperial College PhD (exp.'20), DeFi and smart contract expert. Previously, 3+ years cybersecurity and cloud at PwC. KTH / TU Delft CS MSc ‘17. BinanceX Fellow. 
   twitter: dominik0_
   linkedin: dominik-harz
   github: nud3l
@@ -19,9 +19,15 @@
   website: https://dominikharz.me/
   image: dom.png
 
+- name: David Garai
+  role: Head of Operations
+  bio: Ex-Magic Circle lawyer, previously 3+ years financial regulations and derivatives/structured finance at Linklaters, A&O (London/Tokyo). Manchester LLB ’16.
+  twitter: davgarai
+  linkedin: davidgarai
+  image: david.png
 
 - name: Daniel Perez
-  role: Researcher & Software Engineer
+  role: Research & Software Engineering
   bio: Imperial College CS PhD (exp.'21), security and distributed virtual machines. Open source advocate with 2000+ stars on Github. Previously CTO at 2 start-ups. Tokyo University CS MSc ‘18. BinanceX Fellow.
   twitter: danhper
   linkedin: danhper
