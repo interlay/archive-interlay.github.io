@@ -103,34 +103,6 @@ tags: [careers]
   </div>
 </div>
 
-<div class="modal fade" id="vp-operations" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title"><b>VP Operations</b></h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <i class="material-icons">clear</i>
-        </button>
-      </div>
-      <div class="modal-body">
-       {% capture manifesto %}
-          {% include jobs/vp-operations.md %}
-        {% endcapture %}
-        {{ manifesto | unindent | markdownify }}
-        <br/>
-      </div>
-      <div class="modal-footer">
-        <a href="mailto:careers@interlay.io?subject=Application - VP Operations" target="__blank">
-          <button class="btn btn-block btn-primary">
-            <i class="material-icons">library_books</i> Apply (CV + short statement)
-          </button>
-        </a>
-        <button type="button" class="btn btn-block" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="modal fade" id="frontend-engineer" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
