@@ -13,14 +13,6 @@ tags: [careers]
       <div class="row">
         <div class="col-md-12">
           <div class="card">
-            <div class="card-body" data-toggle="modal" data-target="#vp-operations">
-              <a href="javascript:void(0)">
-                <h3>VP Operations</h3>
-                <i>Full time. Remote, preferably based in UK</i>
-              </a>
-            </div>
-          </div>
-          <div class="card">
             <div class="card-body" data-toggle="modal" data-target="#frontend-engineer">
               <a href="javascript:void(0)">
                 <h3>Frontend Engineer (React + TypeScript)</h3>
