@@ -577,6 +577,13 @@ a {
   -webkit-text-decoration-skip: objects;
 }
 
+p a {
+  color: #310000;
+  text-decoration: underline;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
 a:hover {
   color: #0a6ebd;
   text-decoration: underline;
