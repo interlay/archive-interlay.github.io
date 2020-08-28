@@ -39,3 +39,4 @@ The Substrate-based blockchain, as well as our CLI clients, are written in Rust.
 * Remote working
 * Flexible working hours
 * Yearly retreat
+* Open-source software
