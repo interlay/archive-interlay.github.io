@@ -1,0 +1,38 @@
+- title: "TxChain: Efficient Cryptocurrency Light Clients via Contingent Transaction Aggregation"
+  url: https://eprint.iacr.org/2020/580.pdf
+  authors:
+    - Zamyatin A
+    - Avarikioti Z
+    - Perez D
+    - Knottenbelt WJ
+  affiliations:
+    - Imperial College London and ETH Zurich
+  note: >
+    4th International Workshop on Cryptocurrencies and Blockchain Technology - CBT 2020
+  date: May 2020
+- title: "Promise: Leveraging Future Gains for Collateral Reduction"
+  url: https://eprint.iacr.org/2020/532.pdf
+  authors:
+    - Harz D
+    - Lewis Gudgeon
+    - Rami Khalil
+    - Zamyatin A
+  affiliations: Imperial College London
+  note: >
+    International Conference on Mathematical Research for Blockchain Economy
+  date: May 2020
+
+- title: "SoK: Communication Across Distributed Ledgers"
+  url: https://eprint.iacr.org/2019/1128.pdf
+  authors:
+    - Zamyatin A
+    - Al-Bassam M
+    - Zindros D
+    - Kokoris-Kogias E
+    - Moreno-Sanchez P
+    - Kiayias A
+    - Knottenbelt WJ
+  affiliations: Imperial College London, UCL, IOHK, EPFL, TU Vienna, University of Athens, University of Edinburgh
+  note: >
+    Cryptology ePrint Archiv, Report 2019/1128
+  date: October 2019

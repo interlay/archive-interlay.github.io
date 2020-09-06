@@ -1,0 +1,64 @@
+- title: "XCLAIM: Trustless, Interoperable Cryptocurrency-Backed Assets"
+  url: https://eprint.iacr.org/2018/643.pdf
+  authors:
+    - Zamyatin A
+    - Harz D
+    - Lind J
+    - Panayiotou P
+    - Arthur G
+    - Knottenbelt WJ
+  note: >
+    IEEE Symposium on Security and Privacy (S&P)
+  date: May 2019
+  affiliations: Imperial College London, SBA Research
+- title: "Stablecoins 2.0: Economic Foundations and Risk-based Models"
+  url: https://arxiv.org/pdf/2006.12388.pdf
+  authors:
+  - Klages-Mundt A
+  - Harz D
+  - Gudgeon L
+  - Liu J
+  - Minca A
+  note: >
+    ACM conference on Advances in Financial Technologies (AFT’20) 
+  affiliations: Cornell University, Imperial College London
+  date: June 2020
+- title: "The Decentralized Financial Crisis"
+  url: https://arxiv.org/pdf/2002.08099.pdf
+  authors:
+  - Gudgeon L
+  - Perez D
+  - Harz D
+  - Livshits B
+  - Gervais A
+  note: >
+    2020 Crypto Valley Conference on Blockchain Technology (CVCBT)
+  date: June 2020
+  affiliations: Imperial College London
+- title: "Commit-Chains: Secure, Scalable Off-Chain Payments"
+  url: https://eprint.iacr.org/2018/642.pdf
+  authors:
+    - Khalil R
+    - Zamyatin A
+    - Felley G
+    - Moreno-Sanchez P
+    - Gervais A
+  note: >
+    Cryptology ePrint Archiv, Report 2018/642
+  affiliations: Imperial College London, TU Wien, Liquidity Network
+  date: October 2019
+- title: "Pay-To-Win: Cheap, Crowdfundable, Cross-chain Incentive Manipulation Attacks on Cryptocurrencies"
+  url: https://eprint.iacr.org/2019/775.pdf
+  authors:
+    - Judmayer A
+    - Stifter N
+    - Zamyatin A
+    - Tsabary I
+    - Eyal I
+    - Gazi P
+    - Meiklejohn S
+    - Weippl E
+  note: >
+    Cryptology ePrint Archiv, Report 2019/775
+  date: July 2019
+  affiliations: SBA Research, TU Wien, Imperial College London, Technion, IC3, IOHK, and UCL

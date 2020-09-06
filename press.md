@@ -15,7 +15,7 @@ tags: [press]
             <div class="card">
                 <a href="{{ post.url}}">
                     <div class="card-body">
-                        <h4><b>{{ post.title }}</b></h4>
+                        <h4><strong>{{ post.title }}</strong></h4>
                         <h4>{{ post.author }}</h4>
                         <p>{{ post.summary }}</p>
                         <div class="row">

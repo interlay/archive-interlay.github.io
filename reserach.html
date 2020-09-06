@@ -1,0 +1,80 @@
+---
+title: Research
+permalink: /research/
+layout: default
+tags: [research]
+---
+
+<div class="main">
+    <div class="container">
+        <div class="section text-left">
+            <h2>Research</h2>
+         
+            Technological advantage stems from persistent and rigorous research.
+            At Interlay, we are hence dedicated to contribute to cutting-edge research in the areas of  blockchain interoperability, security, and crypto-economics.
+
+            <br/>
+            <br/>
+            As of today, our team members have co-authored 30 scientific publications counting over 400 citations, while at / in collaboration with leading universities and research centres around the globe. 
+
+            <br/>
+            <br/>
+            We are advocates for open access research and 
+            believe in sharing our findings with the community. 
+
+            <h3>Interlay Research Papers</h3>
+            {% for paper in site.data.interlay_papers %}
+            <div class="card">
+                <div class="card-body">
+                <a href="{{ paper.url}}" target="__blank">
+                <h4><strong>{{ paper.title }}</strong></h4>
+                <br />
+                    {% for author in paper.authors %}
+                    {%- if author == site.owner.pubname -%}
+                        <strong>{{ author }}</strong>
+                    {%- else -%}
+                        {{ author }}
+                    {%- endif -%}
+                    {% if forloop.last == false %}, {% endif %}
+                    {% endfor %}
+                    <br />
+                    <i>{{ paper.note }}</i>
+                    <br/> In collaboration with {{ paper.affiliations }}
+                    <br /> {{ paper.date }}
+
+                </a>
+            </div>
+            </div>
+            {% endfor %}
+
+
+            <h3>Related and Past Research</h3>
+            Our team has been actively contributing to cutting-edge research in the blockchain space over the past 5 years. A lot of the concepts developed by our team during their previous research careers find their way into Interlay's products. Some of the most recent and relevant works of our team members are outlined below: 
+
+
+            {% for paper in site.data.related_research %}
+            <div class="card">
+                <div class="card-body">
+                <a href="{{ paper.url}}" target="__blank">
+                <h4><strong>{{ paper.title }}</strong></h4>
+                <br />
+                    {% for author in paper.authors %}
+                    {%- if author == site.owner.pubname -%}
+                        <strong>{{ author }}</strong>
+                    {%- else -%}
+                        {{ author }}
+                    {%- endif -%}
+                    {% if forloop.last == false %}, {% endif %}
+                    {% endfor %}
+                    <br />
+                    <i>{{ paper.note }}</i>
+                    <br/> {{ paper.affiliations }}
+                    <br /> {{ paper.date }}
+
+                </a>
+            </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

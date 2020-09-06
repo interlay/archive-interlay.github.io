@@ -31,8 +31,7 @@ tags: [products]
                   </a>
                     <h2>Trustless BTC-Polkadot Bridge </h2>
                   <p>
-                  We are bringing Bitcoin to the Polkadot ecosystem. 
-                  XCLAIM, the framework underlying the BTC-Parachain, is a carefully designed, open and trustless system that leverages a dynamic set of collateralized intermediaries. Intermediaries are obligated to prove correct transaction execution on Bitcoin, which ensures that users face no financial damage.
+                 Interlay is building the official, trustless Bitcoin-Polkadot bridge, in collaboration with Parity Technologies and the Web3 Foundation -- based on top-tier academic research. As the main BTC gateway, PolkaBTC will help bootstrap Polkadot’s emerging DeFi ecosystem. 
                   <br>
                   <br>
                   <b>Open-source, funded by a Web3 Foundation grant</b>
@@ -59,7 +58,7 @@ tags: [products]
                   </a>
                     <h2>Zero-Trust Bitcoin Options</h2>
                   <p>
-                  XOpts is the first trustless and non-custodial platform for buying, selling and trading Bitcoin options. Currently built on Ethereum, XOpts enables users to buy and sell Bitcoin options using DAI, or any other stablecoin, as insurance collateral. The option contracts can be traded on decentralized exchanges like Uniswap. Settlement occurs on Bitcoin and is enforced via SPV proofs.               
+                  XOpts is the first trustless and non-custodial platform for cross-chain BTC options. XOpts also functions as a decentralized exchange for BTC, enabling cross-chain trading against stablecoins and DeFi tokens -- <i>without</i> relying on price oracles or wrapped BTC.         
                   <br>
                   <br>
                   <b>Open-source, live on Ethereum Ropsten Testnet</b>
