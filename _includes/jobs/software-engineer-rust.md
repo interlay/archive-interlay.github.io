@@ -36,4 +36,5 @@ You will need to have an excellent understanding of Rust best practices and expe
 * Travel to international blockchain conferences
 * Allowance for a co-working space
 * Yearly retreat
+* Open-source software
 

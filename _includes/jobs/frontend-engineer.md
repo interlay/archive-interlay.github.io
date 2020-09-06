@@ -33,3 +33,4 @@ Your task will be to help with the design of the web-based UI and build the UI u
 * Remote working
 * Flexible working hours
 * Yearly retreat
+* Open-source software

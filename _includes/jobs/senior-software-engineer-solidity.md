@@ -36,3 +36,4 @@ Your task will be to improve the current Solidity smart contracts, TypeScript li
 * Remote working
 * Flexible working hours
 * Yearly retreat
+* Open-source software
