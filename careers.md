@@ -33,7 +33,7 @@ tags: [careers]
           <br />
           <b>Remote Office</b>
           <br />
-          Work from wherever your like. Meet colleagues all over the world.
+          Work from wherever you like. Meet colleagues all over the world.
         </div>
         <div class="col-md-6 text-center">
           <img class="rounded" width="64" src="/assets/img/icons/stopwatch.png">

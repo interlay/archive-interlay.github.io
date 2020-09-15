@@ -1,6 +1,6 @@
 - name: Alexei Zamyatin
   role: Co-Founder & CEO
-  bio: Imperial College CS PhD (exp.’20), 5 years blockchain security & interoperability research. Previously SBA Research, Accenture, UNOV. TU Vienna CS MSc ’17. BinanceX Fellow.
+  bio: Imperial College CS PhD (exp.’20), 5 years blockchain security & interoperability research. Previously at SBA Research, Accenture, UNOV. TU Vienna CS MSc ’17. BinanceX Fellow.
   twitter: alexeiZamyatin
   linkedin: alexei-zamyatin
   github: alexeiZamyatin
@@ -53,4 +53,13 @@
   linkedin: filip-djordjevic-2a3a9054
   github: filip-djordjevic
   image: filip.jpg
+
+- name: Daniel Savu
+  role: Software Engineer
+  bio: Software Engineer interested in distributed systems. Previously interned at Goldman Sachs and Morgan Stanley. Imperial College London CS MSc '20, thesis on Ethereum reputation systems and privacy. 
+  linkedin: ioan-daniel-savu
+  github: savudani8
+  image: daniel-savu.jpg
+
+
 
