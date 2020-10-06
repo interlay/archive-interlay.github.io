@@ -3,23 +3,9 @@
   hours: Full time
   location: Remote, preferably based in the UK
   file: jobs/senior-software-engineer-solidity.md
-- id: senior-software-engineer-rust
-  title: (Senior) Software Engineer - Rust/Substrate
-  hours: Full time
-  location: Remote, preferably based in the UK
-  file: jobs/senior-software-engineer-rust.md
-- id: devops-engineer
-  title: DevOps Engineer
-  hours: Full time
-  location: Remote, preferably based in the UK
-  file: jobs/devops-engineer.md
 - id: frontend-engineer-react
   title: Frontend Engineer - React/Redux/Typescript
   hours: Full time
   location: Remote, preferably based in the UK
   file: jobs/frontend-engineer.md
-- id: ux-designer
-  title: UI/UX Designer
-  hours: Full time
-  location: Remote, preferably based in the UK
-  file: jobs/ux-designer.md
+
