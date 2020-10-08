@@ -38,7 +38,7 @@
 
 
 - name: Gregory Hill
-  role: Software Engineer
+  role: Research & Software Engineering
   bio: Maintainer of Hyperledger Burrow, open source advocate. Previously at Monax. University of Edinburgh CS Msc ‘18, with focus on ML & cryptography.
   twitter: gregorydhill
   linkedin: gregorydhill95
@@ -56,10 +56,22 @@
 
 - name: Daniel Savu
   role: Software Engineer
-  bio: Software Engineer interested in distributed systems. Previously interned at Goldman Sachs and Morgan Stanley. Imperial College London CS MSc '20, thesis on Ethereum reputation systems and privacy. 
+  bio: Software Engineer interested in distributed systems. Previously interned at Goldman Sachs and Morgan Stanley. Imperial College CS MSc '20, thesis on Ethereum reputation systems and privacy. 
   linkedin: ioan-daniel-savu
   github: savudani8
   image: daniel-savu.jpg
 
+- name: Nikolai Spasov
+  role: DevOps Engineer
+  bio: All things cloud and automation; Software developer & tinkerer with 8 years of commercial experience. Open source proponent. University of Linz, CS Msc '14
+  linkedin: nspasov
+  image: nikolai.jpg
+
+- name: Sander Bosma
+  role: Software Engineer
+  bio: Software Engineer with 4+ years of experience in (embedded) software. TU Delft CS MSc. Volunteered at Project Inspiration, developing a ventilator for COVID-19 patients.
+  linkedin: sander-bosma-b68b725b
+  github: sander2
+  image: sander.jpg
 
 
