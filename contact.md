@@ -6,7 +6,7 @@ layout: default
 tags: [contact]
 ---
 
-<div class="main">
+<div class="main min-vh-100">
   <div class="container">
     <div class="section text-left">
       <div class="col-md-8">
@@ -46,12 +46,7 @@ tags: [contact]
         </div>
       </div>
     </div>
-  </div>
-</div>
-
-<div class="main ">
-  <div class="container">
-    <div class="section">
+        <div class="section">
       <div class="col-md-8">
         <h4>Interlay Ltd. is registered in England and Wales, company registration number 10722638.
         Quadrant House – Floor 6, 4 Thomas More Square, E1W 1YW, London, United Kingdom

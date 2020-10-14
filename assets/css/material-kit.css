@@ -16425,6 +16425,7 @@ footer .pull-center {
 .card .card-header-white {
   background: white;
 }
+
 .polkabtc {
   background-image: linear-gradient(90deg,  #f8931a, #e71778);
   -webkit-background-clip: text;
@@ -16432,7 +16433,7 @@ footer .pull-center {
 }
 
 .card .card-header-white {
-  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px #727272;
+  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 10px 15px -11px #510101;
 }
 .card .card-header-primary {
   box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px #82312b;
@@ -16456,10 +16457,6 @@ footer .pull-center {
 
 .card .card-header-success {
   box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(76, 175, 80, 0.6);
-}
-
-.card .card-header-white {
-  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px #82312b;
 }
 
 .card [class*="header-"],

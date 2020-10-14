@@ -5,29 +5,22 @@ layout: default
 tags: [products]
 ---
 
-<div class="main">
+<div class="main min-vh-100">
   <div class="container">
     <div class="section text-left">
          <h2>Products</h2>
           <div class="row">
           <div class="col-md-12">
-            The open-source XCLAIM framework allows users to move assets across public/permissionless blockchains such as Bitcoin and Ethereum in a trustless manner. Enterprises, on the other hand, can utulize XCLAIM to execute settlements across different permissioned ledgers, choosing from a palette of possible trust models based on use case and required security. 
-            <br/>
-            <br/>
-            To fully exploit the benefits of interoperability, Interlay is also building a trustless and non-custodial trading platform for cross-chain derivative trading (e.g. BTC/ETH, BTC/DAI and BTC/DOT).
-            <br/>
-            <br/>
-            Check out our code at <a href="https://github.com/interlay" target="__blank"><u>github.com/interlay</u></a>
-            <br/>
-            <br/>
+          At Interlay, we envision a future where permissioned and permissionless blockchains, regardless of design and purpose, can seamlessly connect and interact. From trustless loans to decentralized derivatives & exchanges, from off-chain payment protocols to application-specific ledgers: anyone should use any digital currency on any blockchain platform.
+
             </div>
           </div>
           <div class="row">
             <div class="col-lg-6">
               <div class="card">
                 <div class="card-body">
-                  <a href="https://medium.com/interlay/bitcoin-on-polkadot-proof-of-concept-for-trustless-bridge-shipped-6fb8e549bef0">
-                  <img class="d-block w-100" src="/../assets/img/projects/btc-parachain.png">
+                  <a href="https://polkabtc.io">
+                  <img class="d-block w-100" src="/../assets/img/projects/polkabtc.png">
                   </a>
                     <h2>Trustless BTC-Polkadot Bridge </h2>
                   <p>
@@ -37,6 +30,9 @@ tags: [products]
                   <b>Open-source, funded by a Web3 Foundation grant</b>
                   </p>
                   <div class="row">
+                  <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://polkabtc.io/" target="_blank" data-original-title="Try it out">
+                  <i class="fa fa-desktop fa-3x"></i>
+                  </a>
                   <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://github.com/interlay/BTC-Parachain" target="_blank" data-original-title="Open-source code">
                   <i class="fa fa-github fa-3x"></i>
                   </a>
@@ -56,7 +52,7 @@ tags: [products]
                   <a href="https://xopts.io">
                   <img class="d-block w-100" src="/../assets/img/projects/xopts-banner.png">
                   </a>
-                    <h2>Zero-Trust Bitcoin Options</h2>
+                    <h2>Zero-Trust BTC Options & DEX</h2>
                   <p>
                   XOpts is the first trustless and non-custodial platform for cross-chain BTC options. XOpts also functions as a decentralized exchange for BTC, enabling cross-chain trading against stablecoins and DeFi tokens -- <i>without</i> relying on price oracles or wrapped BTC.         
                   <br>
