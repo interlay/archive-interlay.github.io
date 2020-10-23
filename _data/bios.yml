@@ -74,4 +74,10 @@
   github: sander2
   image: sander.jpg
 
+- name: Theodore Bugnet
+  role: Software Engineer
+  bio: Experienced startup Software Engineer with a passion for decentralization and privacy. Imperial College CS MSc '20, thesis on secure and efficient cross-chain asset protocols.
+  linkedin: theodorebugnet
+  github: theodorebugnet 
+  image: theodore.jpg
 
