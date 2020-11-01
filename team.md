@@ -8,7 +8,7 @@ tags: [team]
 <div class="main">
   <div class="container">
     <div class="section text-left">
-      <h2>Our Team</h2>
+      <h2>Our Team</h2>      
       We are a team of leading experts in blockchain interoperability, security and crypto-economics, distributed across London, Vienna, Edinburgh, Belgrade, and Tokyo.
       <div class="row mt-4">
       {% for user in site.data.bios %}
