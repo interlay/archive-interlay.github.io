@@ -11,7 +11,11 @@ tags: [products]
          <h2>Products</h2>
           <div class="row">
           <div class="col-md-12">
-          At Interlay, we envision a future where permissioned and permissionless blockchains, regardless of design and purpose, can seamlessly connect and interact. From trustless loans to decentralized derivatives & exchanges, from off-chain payment protocols to application-specific ledgers: anyone should use any digital currency on any blockchain platform.
+
+<p>
+Our products are designed to be inherently decentralized and the majority of our <a href="https://github.com/interlay">code is open source</a>. We follow a <a href="https://www.interlay.io/research/">research-driven approach</a>, back up our work by top-tier scientific papers, and collaborate with leading research labs around the world. 
+</p> 
+
 
             </div>
           </div>
@@ -22,7 +26,7 @@ tags: [products]
                   <a href="https://polkabtc.io">
                   <img class="d-block w-100" src="/../assets/img/projects/polkabtc.png">
                   </a>
-                    <h2>Trustless BTC-Polkadot Bridge </h2>
+                    <h2>Trustless Bitcoin-Polkadot Bridge </h2>
                   <p>
                  Interlay is building the official, trustless Bitcoin-Polkadot bridge, in collaboration with Parity Technologies and the Web3 Foundation -- based on top-tier academic research. As the main BTC gateway, PolkaBTC will help bootstrap Polkadot’s emerging DeFi ecosystem. 
                   <br>
@@ -52,7 +56,7 @@ tags: [products]
                   <a href="https://xopts.io">
                   <img class="d-block w-100" src="/../assets/img/projects/xopts-banner.png">
                   </a>
-                    <h2>Zero-Trust BTC Options & DEX</h2>
+                    <h2>Zero-Trust BTC Options on Ethereum</h2>
                   <p>
                   XOpts is the first trustless and non-custodial platform for cross-chain BTC options. XOpts also functions as a decentralized exchange for BTC, enabling cross-chain trading against stablecoins and DeFi tokens -- <i>without</i> relying on price oracles or wrapped BTC.         
                   <br>

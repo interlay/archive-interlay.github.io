@@ -1,17 +1,13 @@
+- id: full-stack-ethereum
+  title: Senior Ethereum Full-Stack Engineer (React, Typescript, Solidity)
+  hours: Full time
+  location: Remote
+  file: jobs/full-stack-ethereum.md
 - id: full-stack-engineer
   title: Web3 Full-Stack Engineer (React, Redux, Typescript)
   hours: Full time
-  location: Remote, preferably based in the UK
+  location: Remote
   file: jobs/full-stack-engineer.md
-- id: senior-software-engineer-solidity
-  title: (Senior) Software Engineer - Solidity/TypeScript
-  hours: Full time
-  location: Remote, preferably based in the UK
-  file: jobs/senior-software-engineer-solidity.md
-- id: frontend-engineer-react
-  title: Frontend Engineer - React/Redux/Typescript
-  hours: Full time
-  location: Remote, preferably based in the UK
-  file: jobs/frontend-engineer.md
+
 
 
