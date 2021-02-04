@@ -15,7 +15,7 @@ tags: [careers]
           {% for job in site.data.jobs %}
           <div class="card">
             <div class="card-body" data-toggle="modal" data-target="#{{ job.id }}">
-              <a href="javascript:void(0)">
+              <a href="/careers/#{{ job.id }}">
                 <h4><b>{{ job.title }}</b></h4>
                 <i>{{ job.hours }}. {{ job.location }}</i>
               </a>
@@ -100,7 +100,9 @@ tags: [careers]
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title"><b> {{ job.title }}</b></h4>
+        <a href="/careers/#{{ job.id }}">
+          <h4 class="modal-title"><b> {{ job.title }}</b></h4>
+        </a>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <i class="material-icons">clear</i>
         </button>

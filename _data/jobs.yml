@@ -1,8 +1,8 @@
-- id: full-stack-ethereum
-  title: Senior Ethereum Full-Stack Engineer (React, Typescript, Solidity)
+- id: senior-frontend
+  title: Senior Frontend Engineer (React, Typescript)
   hours: Full time
   location: Remote
-  file: jobs/full-stack-ethereum.md
+  file: jobs/senior-frontend.md
 - id: full-stack-engineer
   title: Web3 Full-Stack Engineer (React, Redux, Typescript)
   hours: Full time
