@@ -59,10 +59,10 @@ section {
 body {
   margin: 0;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.5;
-  color: black;
+  color: #212529;
   text-align: left;
   background-color: #fafafa;
 }
@@ -460,16 +460,7 @@ section {
   display: block;
 }
 
-body {
-  margin: 0;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  text-align: left;
-  background-color: #fafafa;
-}
+
 
 [tabindex="-1"]:focus {
   outline: 0 !important;
@@ -14720,7 +14711,7 @@ h6,
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 0 0 10px;
 }
 

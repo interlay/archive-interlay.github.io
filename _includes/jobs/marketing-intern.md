@@ -1,12 +1,4 @@
  
- **About Interlay**
-
-[Interlay](https://interlay.io/) envisions a future where blockchains can seamlessly connect and interact, regardless of their design and purpose. Anyone should use any digital currency on any blockchain platform without restrictions.
-
-We are building a decentralized cross-chain settlement layer, “a network to connect them all”. We work with Bitcoin, Ethereum, Polkadot and others, shipping the infrastructure for cross-chain applications, including **[PolkaBTC](https://polkabtc.io/)**, the official trustless Bitcoin-Polkadot bridge, in collaboration with [Parity Technologies](https://parity.io/), funded by the [Web3 Foundation](https://web3.foundation/).
-
-Our products are designed to be inherently decentralized and the majority of our [code is open source](https://github.com/interlay). We follow a [research-driven approach](https://www.interlay.io/research/), back up our work by top-tier scientific papers, and collaborate with leading research labs around the world.
-
 **Role and Responsibilities**
 
 We are hiring an Intern for a Communications, Community, and Marketing role to assist Interlay with outreach and community development efforts on the PolkaBTC project. 

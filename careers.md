@@ -9,22 +9,45 @@ tags: [careers]
   <div class="container">
     <div class="section">
       <h2>Join us</h2>
-      We are looking for talented software engineers and researchers to join our team.
+       We are looking for talented individuals to join us on our mission towards a decentralized and interoperable blockchain ecosystem.
+      <br/>
+      You will be joining an ambitious team with multi-year expertise in blockchain protocols, security and cryptography. 
+      There will be a steep learning curve, we will expect you to stay up to date with technological developments, and you will be encouraged to apply your ideas.
       <div class="row">
         <div class="col-md-12">
+        <h3> Engineering </h3>
           {% for job in site.data.jobs %}
+          {% if job.type == "dev" %}
           <div class="card">
             <div class="card-body" data-toggle="modal" data-target="#{{ job.id }}">
               <a href="/careers/#{{ job.id }}">
                 <h4><b>{{ job.title }}</b></h4>
-                <i>{{ job.hours }}. {{ job.location }}</i>
+                {{ job.hours }} | {{ job.location }}
               </a>
             </div>
           </div>
+          {% endif %}
           {% endfor %}
         </div>
       </div>
-      <h3>Perks</h3>
+      <div class="row">
+        <div class="col-md-12">
+        <h3> Business & Outreach </h3>
+          {% for job in site.data.jobs %}
+           {% if job.type == "bdo" %}
+          <div class="card">
+            <div class="card-body" data-toggle="modal" data-target="#{{ job.id }}">
+              <a href="/careers/#{{ job.id }}">
+                <h4><b>{{ job.title }}</b></h4>
+                {{ job.hours }} | {{ job.location }}
+              </a>
+            </div>
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      <h2>Perks</h2>
       Probably not the main reason you will choose to come to Interlay, but we try to make coming to work every day just
       a little bit better.
       <div class="row mt-3">
