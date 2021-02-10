@@ -21,7 +21,7 @@ tags: [company]
       <h5>
       <b>
         <a href="/contact">
-        Contact us <span class="fa fa-angle-right"></span>
+        Contact us <span class="fab fa-angle-right"></span>
         </a>
         </b>
       </h5>      
@@ -38,22 +38,22 @@ tags: [company]
           <h4>{{ user.role }}</h4>
           {% if user.twitter %}
             <a class="" href="https://twitter.com/{{ user.twitter }}" target="_blank">
-              <i class="fa fa-twitter"></i>
+              <i class="fab fa-twitter"></i>
             </a>&nbsp;
           {% endif%}
           {% if user.github %}
             <a class="" href="https://github.com/{{ user.github }}" target="_blank">
-              <i class="fa fa-github"></i>
+              <i class="fab fa-github"></i>
             </a>&nbsp;
           {% endif%}
           {% if user.scholar %}
             <a class="" href="https://scholar.google.co.uk/citations?user={{ user.scholar }}&hl=en&oi=ao" target="_blank">
-              <i class="fa fa-graduation-cap"></i>
+              <i class="fas fa-graduation-cap"></i>
             </a>&nbsp;
           {% endif%}
           {% if user.linkedin %}
             <a class="" href="https://www.linkedin.com/in/{{ user.linkedin }}" target="_blank">
-              <i class="fa fa-linkedin"></i>
+              <i class="fab fa-linkedin"></i>
             </a>
           {% endif%}
           <p class="text-justify">
@@ -66,7 +66,7 @@ tags: [company]
       <h5>
       <b>
         <a href="/careers">
-        Careers <span class="fa fa-angle-right"></span>
+        Careers <span class="fab fa-angle-right"></span>
         </a>
         </b>
       </h5>    
@@ -83,22 +83,22 @@ tags: [company]
           <h4>{{ user.role }}</h4>
           {% if user.twitter %}
             <a class="" href="https://twitter.com/{{ user.twitter }}" target="_blank">
-              <i class="fa fa-twitter"></i>
+              <i class="fab fa-twitter"></i>
             </a>&nbsp;
           {% endif%}
           {% if user.github %}
             <a class="" href="https://github.com/{{ user.github }}" target="_blank">
-              <i class="fa fa-github"></i>
+              <i class="fab fa-github"></i>
             </a>&nbsp;
           {% endif%}
           {% if user.scholar %}
             <a class="" href="https://scholar.google.co.uk/citations?user={{ user.scholar }}&hl=en&oi=ao" target="_blank">
-              <i class="fa fa-graduation-cap"></i>
+              <i class="fas fa-graduation-cap"></i>
             </a>&nbsp;
           {% endif%}
           {% if user.linkedin %}
             <a class="" href="https://www.linkedin.com/in/{{ user.linkedin }}" target="_blank">
-              <i class="fa fa-linkedin"></i>
+              <i class="fab fa-linkedin"></i>
             </a>
           {% endif%}
           <p class="text-justify">
