@@ -36,14 +36,6 @@
   scholar: OoKiidsAAAAJ  
   image: gregory.png
 
-
-- name: Filip Djordjevic
-  role: Software Engineer
-  bio: Software Engineer with 8+ years experience, focusing on embedded, web and mobile tech., with a passion for UI/UX. Previously, CTO of Toronto-based Devinity Corp. Belgrade University CS MSc. 
-  linkedin: filip-djordjevic-2a3a9054
-  github: filip-djordjevic
-  image: filip.jpg
-
 - name: Daniel Savu
   role: Software Engineer
   bio: Software Engineer interested in distributed systems. Previously interned at Goldman Sachs and Morgan Stanley. Imperial College CS MSc '20, thesis on Ethereum reputation systems and privacy. 
