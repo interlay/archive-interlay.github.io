@@ -4,18 +4,7 @@
   location: Remote
   file: jobs/bd-manager.md
   type: bdo
-- id: senior-frontend
-  title: Senior Frontend Engineer (React, Typescript)
-  hours: Full time
-  location: Remote
-  file: jobs/senior-frontend.md
-  type: dev
-- id: intern-marketing
-  title: Intern - Communications, Community and Marketing (4-6 Months)
-  hours: Full time
-  location: Remote
-  file: jobs/marketing-intern.md
-  type: bdo
+
 
 
 
