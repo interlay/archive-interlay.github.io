@@ -4,6 +4,12 @@
   location: Remote
   file: jobs/bd-manager.md
   type: bdo
+- id: operations
+  title: Head of Operations
+  hours: Full time
+  location: Remote
+  file: jobs/operations.md
+  type: bdo
 
 
 
