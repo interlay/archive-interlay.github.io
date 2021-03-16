@@ -8,23 +8,23 @@ tags: [company]
 <div class="main">
   <div class="container">
     <div class="section text-left">
-      <h2> We make DeFi interoperable </h2>
-      <h4>Our Vision</h4>
+      <h2> We make DeFi interoperable </h2> 
+      <h3>Vision</h3>
       <p>
-      We envision a future where blockchains can seamlessly connect and interact, regardless of their design and purpose. Anyone should use any digital currency on any blockchain platform without restrictions. Our mission is to build a <strong>fair, decentralized, zero-trust cross-chain settlement layer</strong>, “a network to connect them all”.
+ We envision a future where blockchains can seamlessly connect and interact, regardless of their design and purpose. Anyone should use any digital currency on any blockchain platform without restrictions.
       </p>
-      <h4>Our Business</h4>
+      <h3>Mission</h3>
       <p>
-      We started by building infrastructure of tomorrow's interoperable blockchain ecosystem: trustless cross-chain bridges. On top, we are building cross-chain DeFi products that unlock liquidity and new features across platforms. 
+      Our mission is to make Bitcoin useful. Bitcoin holders should easily earn passive income on their BTC holdings by investing into decentralized financial products on any blockchain - without trusting centralized services. 
       </p>
 
-      <h5>
+      <h4>
       <b>
         <a href="/contact">
-        Contact us <span class="fab fa-angle-right"></span>
+        Contact us <span class="fa fa-angle-right"></span>
         </a>
         </b>
-      </h5>      
+      </h4>      
       <br/>
       
       <h3>Interlay Team</h3>      
@@ -56,20 +56,20 @@ tags: [company]
               <i class="fab fa-linkedin"></i>
             </a>
           {% endif%}
-          <p class="text-justify">
+          <p class="text-justify bio-text">
           {{ user.bio }}
           </p>
         </div>
       {% endfor %}
       </div>
       
-      <h5>
+      <h4>
       <b>
         <a href="/careers">
-        Careers <span class="fab fa-angle-right"></span>
+        Careers <span class="fa fa-angle-right"></span>
         </a>
         </b>
-      </h5>    
+      </h4>    
       <br/>
 
       <h3>Advisors</h3>      
@@ -101,7 +101,7 @@ tags: [company]
               <i class="fab fa-linkedin"></i>
             </a>
           {% endif%}
-          <p class="text-justify">
+          <p class="text-justify bio-text">
           {{ user.bio }}
           </p>
         </div>
