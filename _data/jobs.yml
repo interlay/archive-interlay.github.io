@@ -1,9 +1,9 @@
-- id: bd-manager
-  title: Head of Growth
+- id: ux-designer
+  title: UI/UX Designer
   hours: Full time
   location: Remote
-  file: jobs/bd-manager.md
-  type: bdo
+  file: jobs/ux-designer.md
+  type: dev
 - id: operations
   title: Head of Operations
   hours: Full time

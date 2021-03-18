@@ -1,36 +1,43 @@
 
-We are looking for a UI/UX designer with a background in front-end engineering to help us with our two products, XOpts and PolkaBTC. The [PolkaBTC bridge](https://medium.com/interlay/bitcoin-on-polkadot-proof-of-concept-for-trustless-bridge-shipped-6fb8e549bef0) connects Bitcoin with the Polkadot ecosystem in a trustless and decentralized manner and will serve as the main gateway for bringing BTC liquidity into Polkadot’s DeFi ecosystem. [XOpts](https://xopts.io/) is a trustless and non-custodial platform for cross-chain BTC options - currently built on top of Ethereum. Both platforms are built at the hotspot of current innovation in the blockchain space.
+We are looking for a talented UI/UX Designer to lead our user experience and design process. You will ensure our products meet people’s needs, are accessible to non-expert users, and present a strong visual appearance with a unique and identifiable brand. 
 
-Your task will be to help with the design of the web-based UI for both platforms. Further, you will implement components for the PolkaBTC side in SCSS, React/Redux, and TypeScript. The current version of XOpts is live on the Ropsten testnet. We also have an initial demo of the PolkaBTC app that shows what we have in mind. 
+Our perfect candidate has a strong track record of working with deep tech and/or fintech teams and a strong portfolio of successful UX projects. You are aware of the hard usability problems in building great crypto-applications. You should be a quick learner with a systematic and organised, yet analytical mindset. If you’re also a perfectionist, passionate about your work, and an open and outgoing person, we’d like to meet you. 
 
-You will need to have a strong focus on design and clean user interfaces. Your role will give you the freedom to propose new designs and quickly iterate those with the rest of the team. Ideally, you also have a good understanding of React and TypeScript best practices and experience with writing production-ready software (incl. E2E testing). Experience with development in blockchain-based environments is strongly encouraged, as you will need a basic understanding of the underlying technology to build user flows and simplify interactions without loss of security.
-
-*Full-time and preferably based in the UK*
+Ultimately, you will make our products user-friendly and your work will define our success at attracting and retaining users. 
 
 **What you will do**
 
-- Redesign the user interfaces for our two core products: XOpts and PolkaBTC
-- Design and improve common components for the products including wallet integrations and managing confirmation wait times
-- Build a React, Redux and TypeScript web-based UI for PolkaBTC a trustless cross-chain platform
-- Help design simple user flows for complex technical processes for cross-chain transfers
-- Contribute to other open-source projects that we integrate with
-- Work in close collaboration with the founders on preparing product demos
+* Design the web-based user interface and the user interaction flows for our cross-chain applications
+* Proactively drive and conduct user research to improve products based on systematic feedback evaluation
+* Translate the user insights into artifacts (user stories, wireframes, mock-ups, and prototypes) around customer needs using Figma and other tools
+* Implement designs in CSS using Tailwind - yourself and in collaboration with web developers & UI designers
+* Solve novel user interaction issues related to cross-chain applications (multiple wallets, slow confirmation times, and early stage of software tools)
+* Help prepare demos for new applications
+* Stay up-to-date with competitor products and industry trends
 
 
-**What you bring**
-- Passion for UI/UX design and clean user interfaces
-- Good knowledge of React, Redux and TypeScript
-- Experience in creating and deploying usable, production-ready applications
-- Desire to learn and work with bleeding-edge technology
-- BSc/MSc degree, or equivalent experience
-- Proficiency in English
+**What you bring**   
+
+* Proven 3+ years experience as a UI/UX Designer, ideally at fintech/blockchain companies
+* You prefer simplicity over complexity: you have an eye for simplifying interactions
+* You are quick to turn design concepts into visual form using tools like Figma
+* You are able to translate designs into CSS using Tailwind and you have (minimal) coding experience with JS/TS
+* Ability to analyse user feedback quantitatively using tools like G Suite tools, spreadsheets, SQL or Python
+
 
 **“Nice to have”**
-- Experience with development in blockchain-based environments (Bitcoin/Ethereum/Polkadot/Substrate/Cosmos/DeFi/...)
+
+*  You are a DeFi user yourself and familiar with the UX at hand
+*  Prior work with Tailwind-CSS and React
+*  Prior professional experience in with blockchains and crypto-assets 
+
+
+
 
 **Benefits and Perks**
-* Stock options
-* Remote working
-* Flexible working hours
-* Yearly retreat
-* Open-source software
+
+*   Stock options
+*   Remote working
+*   30-day vacation
+*   Allowance for a co-working space
+*   Yearly retreat
