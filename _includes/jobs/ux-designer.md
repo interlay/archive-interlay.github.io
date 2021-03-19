@@ -18,26 +18,15 @@ Ultimately, you will make our products user-friendly and your work will define o
 
 **What you bring**   
 
-* Proven 3+ years experience as a UI/UX Designer, ideally at fintech/blockchain companies
-* You prefer simplicity over complexity: you have an eye for simplifying interactions
-* You are quick to turn design concepts into visual form using tools like Figma
-* You are able to translate designs into CSS using Tailwind and you have (minimal) coding experience with JS/TS
-* Ability to analyse user feedback quantitatively using tools like G Suite tools, spreadsheets, SQL or Python
+* Proven 3+ years experience as a UI/UX Designer, ideally at fintech/crypto companies (e.g. dribble.com portfolio)
+* Thorough understanding of design systems and experience working with and applying them 
+* Experience with mobile-first responsive web design for different screen sizes (mobile, tablet, and desktop) 
+*  Pixel perfect design experience and Figma / Sketch power-user
+* CSS and HTML knowledge
+* You can analyze user feedback quantitatively using G Suite tools, spreadsheets, SQL or Python
 
 
 **“Nice to have”**
 
-*  You are a DeFi user yourself and familiar with the UX at hand
+*  You are a DeFi/cryptocurrency user yourself and familiar with the UX issues at hand
 *  Prior work with Tailwind-CSS and React
-*  Prior professional experience in with blockchains and crypto-assets 
-
-
-
-
-**Benefits and Perks**
-
-*   Stock options
-*   Remote working
-*   30-day vacation
-*   Allowance for a co-working space
-*   Yearly retreat
