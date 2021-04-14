@@ -53,7 +53,7 @@ tags: [contact]
     </div>
         <div class="section">
       <div class="col-md-8">
-        <h4>Interlay Ltd. is registered in England and Wales, company registration number 10722638.
+        <h4>Interlay Ltd. is registered in England and Wales, company registration number 12286246.
         Quadrant House – Floor 6, 4 Thomas More Square, E1W 1YW, London, United Kingdom
         </h4>
         <br>
