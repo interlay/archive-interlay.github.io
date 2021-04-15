@@ -1,5 +1,5 @@
 - name: Daniel Perez
-  role: Technology
+  role: Tech & Security
   bio: Security, distributed VMs, and programming languages expert. Imperial College CS PhD. Seasoned start-up CTO. BinanceX Fellow.
   twitter: danhper
   linkedin: danhper
@@ -7,3 +7,11 @@
   scholar: W2XsCqwAAAAJ  
   website: https://daniel.perez.sh/
   image: daniel.jpg
+
+
+- name: David Garai
+  role: Legal & Regulations
+  bio: Ex-Magic Circle lawyer, previously 3+ years financial regulations and derivatives/structured finance at Linklaters, A&O (London/Tokyo).
+  twitter: davgarai
+  linkedin: davidgarai
+  image: david.png

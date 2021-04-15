@@ -19,14 +19,6 @@
   website: https://dominikharz.me/
   image: dom.png
 
-- name: David Garai
-  role: Head of Operations
-  bio: Ex-Magic Circle lawyer, previously 3+ years financial regulations and derivatives/structured finance at Linklaters, A&O (London/Tokyo). Manchester LLB ’16.
-  twitter: davgarai
-  linkedin: davidgarai
-  image: david.png
-
-
 - name: Gregory Hill
   role: Research & Software Engineering
   bio: Maintainer of Hyperledger Burrow, open source advocate. Previously at Monax. University of Edinburgh CS Msc ‘18, with focus on ML & cryptography.
