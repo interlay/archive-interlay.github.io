@@ -38,13 +38,13 @@ Our products are designed to be inherently decentralized and the majority of our
                   <i class="fa fa-desktop fa-3x"></i>
                   </a>
                   <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://github.com/interlay/BTC-Parachain" target="_blank" data-original-title="Open-source code">
-                  <i class="fa fa-github fa-3x"></i>
+                  <i class="fab fab-github fa-3x"></i>
                   </a>
                   <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://interlay.gitlab.io/polkabtc-spec/" target="_blank" data-original-title="Specification">
                   <i class="fa fa-book fa-3x"></i>
                   </a>
                   <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://medium.com/interlay/interlay-receives-w3f-grant-to-build-trustless-btc-polkadot-bridge-c4bdb40173a3" target="_blank" data-original-title="Blog post">
-                  <i class="fa fa-medium fa-3x"></i>
+                  <i class="fab fab-medium fa-3x"></i>
                   </a>
               </div>
             </div>
