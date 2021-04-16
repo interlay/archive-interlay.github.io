@@ -4,11 +4,11 @@
   location: Remote
   file: jobs/ux-designer.md
   type: dev
-- id: operations
-  title: Head of Operations
+- id: community-lead
+  title: Community, Marketing and Ecosystem Lead
   hours: Full time
   location: Remote
-  file: jobs/operations.md
+  file: jobs/community-lead.md
   type: bdo
 
 
